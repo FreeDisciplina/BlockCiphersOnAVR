@@ -1,0 +1,49 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\Debug/PRINCExchplace.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>PRINCExchplace.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>PRINCExchplace.map</FILE>
+  <FILE>PRINCExchplace.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>125</LINE></main>
+  <key_rc_oneRound><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>122</LINE></key_rc_oneRound>
+  <keySchedule><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>201</LINE></keySchedule>
+  <SRAM_KTEXT0><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>286</LINE></SRAM_KTEXT0>
+  <SRAM_KTEXT1><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>287</LINE></SRAM_KTEXT1>
+  <RC><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>1034</LINE></RC>
+  <KeyXor_Sbox_M_XOR><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>479</LINE></KeyXor_Sbox_M_XOR>
+  <KeyXor_Sbox_M_XOR_iSbox_KeyXor><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>485</LINE></KeyXor_Sbox_M_XOR_iSbox_KeyXor>
+  <M_XOR_iSbox_KeyXor><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>494</LINE></M_XOR_iSbox_KeyXor>
+  <encrypt><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>1004</LINE></encrypt>
+  <SRAM_PTEXT><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>284</LINE></SRAM_PTEXT>
+  <SRAM_PTEXT_SWAP><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>285</LINE></SRAM_PTEXT_SWAP>
+  <forword_encrypt_start><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>1013</LINE></forword_encrypt_start>
+  <middle_encrypt_start><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>1020</LINE></middle_encrypt_start>
+  <invert_encrypt_start><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\./PRINCE128xchplace.asm</FILE><LINE>1024</LINE></invert_encrypt_start>
+  <copy_word><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>89</LINE></copy_word>
+  <wait><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>99</LINE></wait>
+  <w_loop><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>101</LINE></w_loop>
+  <wait2><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>114</LINE></wait2>
+  <w_loop2><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>116</LINE></w_loop2>
+  <text><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>260</LINE></text>
+  <main_loop><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>134</LINE></main_loop>
+  <key><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCExchplace\interface.asm</FILE><LINE>263</LINE></key>
+ </LABELS>
+</ASSEMBLER_INFO>

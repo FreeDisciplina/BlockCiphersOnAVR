@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m128def.inc</FILE>
+  <FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\Debug/RectangleScenario1CBC.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>RectangleScenario1CBC.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>RectangleScenario1CBC.map</FILE>
+  <FILE>RectangleScenario1CBC.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>49</LINE></main>
+  <keyschedule><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>506</LINE></keyschedule>
+  <SRAM_KEY><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>154</LINE></SRAM_KEY>
+  <SRAM_SUBKEY><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>155</LINE></SRAM_SUBKEY>
+  <RC><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>580</LINE></RC>
+  <keyschedule_start><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>517</LINE></keyschedule_start>
+  <keyschedule_last><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>523</LINE></keyschedule_last>
+  <encrypt><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>528</LINE></encrypt>
+  <SRAM_PTEXT><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>153</LINE></SRAM_PTEXT>
+  <CBC16_encrypt_start><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>534</LINE></CBC16_encrypt_start>
+  <encrypt_start><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>539</LINE></encrypt_start>
+  <decrypt><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>554</LINE></decrypt>
+  <SRAM_INITV><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>152</LINE></SRAM_INITV>
+  <CBC16_decrypt_start><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>561</LINE></CBC16_decrypt_start>
+  <decrypt_start><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\./Rectangle128SRAM.asm</FILE><LINE>566</LINE></decrypt_start>
+  <wait><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>23</LINE></wait>
+  <w_loop><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>25</LINE></w_loop>
+  <wait2><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>38</LINE></wait2>
+  <w_loop2><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>40</LINE></w_loop2>
+  <INITV_LOOP><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>53</LINE></INITV_LOOP>
+  <PTEXT_LOOP><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>61</LINE></PTEXT_LOOP>
+  <KEY_LOOP><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario1CBC\interface.asm</FILE><LINE>69</LINE></KEY_LOOP>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\Release</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m128def.inc</FILE>
+  <FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\./PRINCScenario2CTR.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\Release/PRINCScenario2CTR.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>PRINCScenario2CTR.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>PRINCScenario2CTR.map</FILE>
+  <FILE>PRINCScenario2CTR.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>51</LINE></main>
+  <Encrypt><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\./PRINCScenario2CTR.asm</FILE><LINE>839</LINE></Encrypt>
+  <key><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>108</LINE></key>
+  <SRAM_COUNT><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>123</LINE></SRAM_COUNT>
+  <forword_start><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\./PRINCScenario2CTR.asm</FILE><LINE>851</LINE></forword_start>
+  <middle_start><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\./PRINCScenario2CTR.asm</FILE><LINE>857</LINE></middle_start>
+  <invert_start><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\./PRINCScenario2CTR.asm</FILE><LINE>860</LINE></invert_start>
+  <SRAM_PTEXT><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>124</LINE></SRAM_PTEXT>
+  <wait><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>26</LINE></wait>
+  <w_loop><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>28</LINE></w_loop>
+  <wait2><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>40</LINE></wait2>
+  <w_loop2><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>42</LINE></w_loop2>
+  <COUNTER_LOOP><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>55</LINE></COUNTER_LOOP>
+  <PTEXT_LOOP><FILE>K:\Seagate\AVRwriting\Programs\PRINCE_AVR\PRINCScenario2CTR\interface.asm</FILE><LINE>63</LINE></PTEXT_LOOP>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,52 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\Release</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\Release/PRINCScenario1CBCEnc.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>PRINCScenario1CBCEnc.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>PRINCScenario1CBCEnc.map</FILE>
+  <FILE>PRINCScenario1CBCEnc.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>69</LINE></main>
+  <ReorderInput><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>151</LINE></ReorderInput>
+  <ReorderOutput><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>171</LINE></ReorderOutput>
+  <key_rc_oneRound><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>229</LINE></key_rc_oneRound>
+  <SRAM_KTEXT1><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>226</LINE></SRAM_KTEXT1>
+  <keySchedule><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>292</LINE></keySchedule>
+  <SRAM_KTEXTR><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>227</LINE></SRAM_KTEXTR>
+  <SRAM_KTEXT0><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>225</LINE></SRAM_KTEXT0>
+  <RC><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>654</LINE></RC>
+  <encrypt><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>614</LINE></encrypt>
+  <SRAM_PTEXT><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>224</LINE></SRAM_PTEXT>
+  <CBC16_encrypt_start><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>624</LINE></CBC16_encrypt_start>
+  <forword_encrypt_start><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>631</LINE></forword_encrypt_start>
+  <middle_encrypt_start><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>636</LINE></middle_encrypt_start>
+  <invert_encrypt_start><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>640</LINE></invert_encrypt_start>
+  <CBC16_encrypt_end><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\./PRINCScenario1CBCEnc.asm</FILE><LINE>650</LINE></CBC16_encrypt_end>
+  <copy_word><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>34</LINE></copy_word>
+  <wait><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>44</LINE></wait>
+  <w_loop><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>46</LINE></w_loop>
+  <wait2><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>58</LINE></wait2>
+  <w_loop2><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>60</LINE></w_loop2>
+  <init><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>198</LINE></init>
+  <SRAM_INITV><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>223</LINE></SRAM_INITV>
+  <text><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>200</LINE></text>
+  <main_loop><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>86</LINE></main_loop>
+  <key><FILE>K:\Seagate\PRINCE\PRINCE_AVR\PRINCScenario1CBCEnc\interface.asm</FILE><LINE>218</LINE></key>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Debug/RectangleSRAMNoInvKS.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>RectangleSRAMNoInvKS.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>RectangleSRAMNoInvKS.map</FILE>
+  <FILE>RectangleSRAMNoInvKS.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>125</LINE></main>
+  <SRAM_PTEXT><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>288</LINE></SRAM_PTEXT>
+  <encrypt><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>391</LINE></encrypt>
+  <SRAM_SUBKEY><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>290</LINE></SRAM_SUBKEY>
+  <encrypt_start><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>400</LINE></encrypt_start>
+  <keyschedule><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>410</LINE></keyschedule>
+  <SRAM_KEY><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>289</LINE></SRAM_KEY>
+  <keyschedule_start><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>420</LINE></keyschedule_start>
+  <RC><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>453</LINE></RC>
+  <keyschedule_last><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>425</LINE></keyschedule_last>
+  <decrypt><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>428</LINE></decrypt>
+  <decrypt_start><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>437</LINE></decrypt_start>
+  <Sbox><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>447</LINE></Sbox>
+  <ISbox><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\Rectangle80SRAM.asm</FILE><LINE>450</LINE></ISbox>
+  <copy_word><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>89</LINE></copy_word>
+  <wait><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>99</LINE></wait>
+  <w_loop><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>101</LINE></w_loop>
+  <wait2><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>114</LINE></wait2>
+  <w_loop2><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>116</LINE></w_loop2>
+  <text><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>254</LINE></text>
+  <main_loop><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>134</LINE></main_loop>
+  <key><FILE>K:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleSRAMNoInvKS\interface.asm</FILE><LINE>257</LINE></key>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "LEDScenario1CBC", "LEDScenario1CBC\LEDScenario1CBC.asmproj", "{25C03B77-69BE-4A02-BD77-B6DEA80A5437}"
+EndProject
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "LEDScenario2CTR", "LEDScenario2CTR\LEDScenario2CTR.asmproj", "{4C83E4FE-F4AC-499C-9E9F-3DD5089F69C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25C03B77-69BE-4A02-BD77-B6DEA80A5437}.Debug|AVR.ActiveCfg = Debug|AVR
+		{25C03B77-69BE-4A02-BD77-B6DEA80A5437}.Debug|AVR.Build.0 = Debug|AVR
+		{25C03B77-69BE-4A02-BD77-B6DEA80A5437}.Release|AVR.ActiveCfg = Release|AVR
+		{25C03B77-69BE-4A02-BD77-B6DEA80A5437}.Release|AVR.Build.0 = Release|AVR
+		{4C83E4FE-F4AC-499C-9E9F-3DD5089F69C9}.Debug|AVR.ActiveCfg = Debug|AVR
+		{4C83E4FE-F4AC-499C-9E9F-3DD5089F69C9}.Debug|AVR.Build.0 = Debug|AVR
+		{4C83E4FE-F4AC-499C-9E9F-3DD5089F69C9}.Release|AVR.ActiveCfg = Release|AVR
+		{4C83E4FE-F4AC-499C-9E9F-3DD5089F69C9}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
