@@ -1,0 +1,2995 @@
+
+AVRASM ver. 2.1.57  K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm Sat Aug 01 21:04:24 2015
+
+[builtin](2): Including file 'C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc'
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(21): Including file 'C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc'
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): Including file 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm'
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(39): warning: Register r16 already defined by the .DEF directive
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(40): warning: Register r17 already defined by the .DEF directive
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(45): warning: .def: 'XL' redefinition (r26->r26)
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(45): warning: Register r26 already defined by the .DEF directive
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(46): warning: .def: 'XH' redefinition (r27->r27)
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(46): warning: Register r27 already defined by the .DEF directive
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(47): warning: .def: 'YL' redefinition (r28->r28)
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(47): warning: Register r28 already defined by the .DEF directive
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(48): warning: .def: 'YH' redefinition (r29->r29)
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(48): warning: Register r29 already defined by the .DEF directive
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(49): warning: .def: 'ZL' redefinition (r30->r30)
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(49): warning: Register r30 already defined by the .DEF directive
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(50): warning: .def: 'ZH' redefinition (r31->r31)
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm(50): warning: Register r31 already defined by the .DEF directive
+K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm(50): 'K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm' included form here
+                 
+                 /*
+                 
+                 ;***** Created: 2011-02-09 12:04 ******* Source: ATtiny45.xml ************
+                 ;*************************************************************************
+                 ;* A P P L I C A T I O N   N O T E   F O R   T H E   A V R   F A M I L Y
+                 ;* 
+                 ;* Number            : AVR000
+                 ;* File Name         : "tn45def.inc"
+                 ;* Title             : Register/Bit Definitions for the ATtiny45
+                 ;* Date              : 2011-02-09
+                 ;* Version           : 2.35
+                 ;* Support E-mail    : avr@atmel.com
+                 ;* Target MCU        : ATtiny45
+                 ;* 
+                 ;* DESCRIPTION
+                 ;* When including this file in the assembly program file, all I/O register 
+                 ;* names and I/O register bit names appearing in the data book can be used.
+                 ;* In addition, the six registers forming the three data pointers X, Y and 
+                 ;* Z have been assigned names XL - ZH. Highest RAM address for Internal 
+                 ;* SRAM is also defined 
+                 ;* 
+                 ;* The Register names are represented by their hexadecimal address.
+                 ;* 
+                 ;* The Register Bit names are represented by their bit number (0-7).
+                 ;* 
+                 ;* Please observe the difference in using the bit names with instructions
+                 ;* such as "sbr"/"cbr" (set/clear bit in register) and "sbrs"/"sbrc"
+                 ;* (skip if bit in register set/cleared). The following example illustrates
+                 ;* this:
+                 ;* 
+                 ;* in    r16,PORTB             ;read PORTB latch
+                 ;* sbr   r16,(1<<PB6)+(1<<PB5) ;set PB6 and PB5 (use masks, not bit#)
+                 ;* out   PORTB,r16             ;output to PORTB
+                 ;* 
+                 ;* in    r16,TIFR              ;read the Timer Interrupt Flag Register
+                 ;* sbrc  r16,TOV0              ;test the overflow flag (use bit#)
+                 ;* rjmp  TOV0_is_set           ;jump if set
+                 ;* ...                         ;otherwise do something else
+                 ;*************************************************************************
+                 
+                 #ifndef _TN45DEF_INC_
+                 #define _TN45DEF_INC_
+                 
+                 
+                 #pragma partinc 0
+                 
+                 ; ***** SPECIFY DEVICE ***************************************************
+                 .device ATtiny45
+                 #pragma AVRPART ADMIN PART_NAME ATtiny45
+                 .equ	SIGNATURE_000	= 0x1e
+                 .equ	SIGNATURE_001	= 0x92
+                 .equ	SIGNATURE_002	= 0x06
+                 
+                 #pragma AVRPART CORE CORE_VERSION V2
+                 #pragma AVRPART CORE NEW_INSTRUCTIONS lpm rd,z+
+                 
+                 
+                 ; ***** I/O REGISTER DEFINITIONS *****************************************
+                 ; NOTE:
+                 ; Definitions marked "MEMORY MAPPED"are extended I/O ports
+                 ; and cannot be used with IN/OUT instructions
+                 .equ	SREG	= 0x3f
+                 .equ	SPL	= 0x3d
+                 .equ	SPH	= 0x3e
+                 .equ	GIMSK	= 0x3b
+                 .equ	GIFR	= 0x3a
+                 .equ	TIMSK	= 0x39
+                 .equ	TIFR	= 0x38
+                 .equ	SPMCSR	= 0x37
+                 .equ	MCUCR	= 0x35
+                 .equ	MCUSR	= 0x34
+                 .equ	TCCR0B	= 0x33
+                 .equ	TCNT0	= 0x32
+                 .equ	OSCCAL	= 0x31
+                 .equ	TCCR1	= 0x30
+                 .equ	TCNT1	= 0x2f
+                 .equ	OCR1A	= 0x2e
+                 .equ	OCR1C	= 0x2d
+                 .equ	GTCCR	= 0x2c
+                 .equ	OCR1B	= 0x2b
+                 .equ	TCCR0A	= 0x2a
+                 .equ	OCR0A	= 0x29
+                 .equ	OCR0B	= 0x28
+                 .equ	PLLCSR	= 0x27
+                 .equ	CLKPR	= 0x26
+                 .equ	DT1A	= 0x25
+                 .equ	DT1B	= 0x24
+                 .equ	DTPS	= 0x23
+                 .equ	DWDR	= 0x22
+                 .equ	WDTCR	= 0x21
+                 .equ	PRR	= 0x20
+                 .equ	EEARH	= 0x1f
+                 .equ	EEARL	= 0x1e
+                 .equ	EEDR	= 0x1d
+                 .equ	EECR	= 0x1c
+                 .equ	PORTB	= 0x18
+                 .equ	DDRB	= 0x17
+                 .equ	PINB	= 0x16
+                 .equ	PCMSK	= 0x15
+                 .equ	DIDR0	= 0x14
+                 .equ	GPIOR2	= 0x13
+                 .equ	GPIOR1	= 0x12
+                 .equ	GPIOR0	= 0x11
+                 .equ	USIBR	= 0x10
+                 .equ	USIDR	= 0x0f
+                 .equ	USISR	= 0x0e
+                 .equ	USICR	= 0x0d
+                 .equ	ACSR	= 0x08
+                 .equ	ADMUX	= 0x07
+                 .equ	ADCSRA	= 0x06
+                 .equ	ADCH	= 0x05
+                 .equ	ADCL	= 0x04
+                 .equ	ADCSRB	= 0x03
+                 
+                 
+                 ; ***** BIT DEFINITIONS **************************************************
+                 
+                 ; ***** PORTB ************************
+                 ; PORTB - Data Register, Port B
+                 .equ	PORTB0	= 0	; 
+                 .equ	PB0	= 0	; For compatibility
+                 .equ	PORTB1	= 1	; 
+                 .equ	PB1	= 1	; For compatibility
+                 .equ	PORTB2	= 2	; 
+                 .equ	PB2	= 2	; For compatibility
+                 .equ	PORTB3	= 3	; 
+                 .equ	PB3	= 3	; For compatibility
+                 .equ	PORTB4	= 4	; 
+                 .equ	PB4	= 4	; For compatibility
+                 .equ	PORTB5	= 5	; 
+                 .equ	PB5	= 5	; For compatibility
+                 
+                 ; DDRB - Data Direction Register, Port B
+                 .equ	DDB0	= 0	; 
+                 .equ	DDB1	= 1	; 
+                 .equ	DDB2	= 2	; 
+                 .equ	DDB3	= 3	; 
+                 .equ	DDB4	= 4	; 
+                 .equ	DDB5	= 5	; 
+                 
+                 ; PINB - Input Pins, Port B
+                 .equ	PINB0	= 0	; 
+                 .equ	PINB1	= 1	; 
+                 .equ	PINB2	= 2	; 
+                 .equ	PINB3	= 3	; 
+                 .equ	PINB4	= 4	; 
+                 .equ	PINB5	= 5	; 
+                 
+                 
+                 ; ***** ANALOG_COMPARATOR ************
+                 ; ADCSRB - ADC Control and Status Register B
+                 .equ	ACME	= 6	; Analog Comparator Multiplexer Enable
+                 
+                 ; ACSR - Analog Comparator Control And Status Register
+                 .equ	ACIS0	= 0	; Analog Comparator Interrupt Mode Select bit 0
+                 .equ	ACIS1	= 1	; Analog Comparator Interrupt Mode Select bit 1
+                 .equ	ACIE	= 3	; Analog Comparator Interrupt Enable
+                 .equ	ACI	= 4	; Analog Comparator Interrupt Flag
+                 .equ	ACO	= 5	; Analog Compare Output
+                 .equ	ACBG	= 6	; Analog Comparator Bandgap Select
+                 .equ	AINBG	= ACBG	; For compatibility
+                 .equ	ACD	= 7	; Analog Comparator Disable
+                 
+                 ; DIDR0 - 
+                 .equ	AIN0D	= 0	; AIN0 Digital Input Disable
+                 .equ	AIN1D	= 1	; AIN1 Digital Input Disable
+                 
+                 
+                 ; ***** AD_CONVERTER *****************
+                 ; ADMUX - The ADC multiplexer Selection Register
+                 .equ	MUX0	= 0	; Analog Channel and Gain Selection Bits
+                 .equ	MUX1	= 1	; Analog Channel and Gain Selection Bits
+                 .equ	MUX2	= 2	; Analog Channel and Gain Selection Bits
+                 .equ	MUX3	= 3	; Analog Channel and Gain Selection Bits
+                 .equ	REFS2	= 4	; Reference Selection Bit 2
+                 .equ	ADLAR	= 5	; Left Adjust Result
+                 .equ	REFS0	= 6	; Reference Selection Bit 0
+                 .equ	REFS1	= 7	; Reference Selection Bit 1
+                 
+                 ; ADCSRA - The ADC Control and Status register
+                 .equ	ADPS0	= 0	; ADC  Prescaler Select Bits
+                 .equ	ADPS1	= 1	; ADC  Prescaler Select Bits
+                 .equ	ADPS2	= 2	; ADC  Prescaler Select Bits
+                 .equ	ADIE	= 3	; ADC Interrupt Enable
+                 .equ	ADIF	= 4	; ADC Interrupt Flag
+                 .equ	ADATE	= 5	; ADC Auto Trigger Enable
+                 .equ	ADSC	= 6	; ADC Start Conversion
+                 .equ	ADEN	= 7	; ADC Enable
+                 
+                 ; ADCH - ADC Data Register High Byte
+                 .equ	ADCH0	= 0	; ADC Data Register High Byte Bit 0
+                 .equ	ADCH1	= 1	; ADC Data Register High Byte Bit 1
+                 .equ	ADCH2	= 2	; ADC Data Register High Byte Bit 2
+                 .equ	ADCH3	= 3	; ADC Data Register High Byte Bit 3
+                 .equ	ADCH4	= 4	; ADC Data Register High Byte Bit 4
+                 .equ	ADCH5	= 5	; ADC Data Register High Byte Bit 5
+                 .equ	ADCH6	= 6	; ADC Data Register High Byte Bit 6
+                 .equ	ADCH7	= 7	; ADC Data Register High Byte Bit 7
+                 
+                 ; ADCL - ADC Data Register Low Byte
+                 .equ	ADCL0	= 0	; ADC Data Register Low Byte Bit 0
+                 .equ	ADCL1	= 1	; ADC Data Register Low Byte Bit 1
+                 .equ	ADCL2	= 2	; ADC Data Register Low Byte Bit 2
+                 .equ	ADCL3	= 3	; ADC Data Register Low Byte Bit 3
+                 .equ	ADCL4	= 4	; ADC Data Register Low Byte Bit 4
+                 .equ	ADCL5	= 5	; ADC Data Register Low Byte Bit 5
+                 .equ	ADCL6	= 6	; ADC Data Register Low Byte Bit 6
+                 .equ	ADCL7	= 7	; ADC Data Register Low Byte Bit 7
+                 
+                 ; ADCSRB - ADC Control and Status Register B
+                 .equ	ADTS0	= 0	; ADC Auto Trigger Source 0
+                 .equ	ADTS1	= 1	; ADC Auto Trigger Source 1
+                 .equ	ADTS2	= 2	; ADC Auto Trigger Source 2
+                 .equ	IPR	= 5	; Input Polarity Mode
+                 .equ	BIN	= 7	; Bipolar Input Mode
+                 
+                 ; DIDR0 - Digital Input Disable Register 0
+                 .equ	ADC1D	= 2	; ADC1 Digital input Disable
+                 .equ	ADC3D	= 3	; ADC3 Digital input Disable
+                 .equ	ADC2D	= 4	; ADC2 Digital input Disable
+                 .equ	ADC0D	= 5	; ADC0 Digital input Disable
+                 
+                 
+                 ; ***** USI **************************
+                 ; USIBR - USI Buffer Register
+                 .equ	USIBR0	= 0	; USI Buffer Register bit 0
+                 .equ	USIBR1	= 1	; USI Buffer Register bit 1
+                 .equ	USIBR2	= 2	; USI Buffer Register bit 2
+                 .equ	USIBR3	= 3	; USI Buffer Register bit 3
+                 .equ	USIBR4	= 4	; USI Buffer Register bit 4
+                 .equ	USIBR5	= 5	; USI Buffer Register bit 5
+                 .equ	USIBR6	= 6	; USI Buffer Register bit 6
+                 .equ	USIBR7	= 7	; USI Buffer Register bit 7
+                 
+                 ; USIDR - USI Data Register
+                 .equ	USIDR0	= 0	; USI Data Register bit 0
+                 .equ	USIDR1	= 1	; USI Data Register bit 1
+                 .equ	USIDR2	= 2	; USI Data Register bit 2
+                 .equ	USIDR3	= 3	; USI Data Register bit 3
+                 .equ	USIDR4	= 4	; USI Data Register bit 4
+                 .equ	USIDR5	= 5	; USI Data Register bit 5
+                 .equ	USIDR6	= 6	; USI Data Register bit 6
+                 .equ	USIDR7	= 7	; USI Data Register bit 7
+                 
+                 ; USISR - USI Status Register
+                 .equ	USICNT0	= 0	; USI Counter Value Bit 0
+                 .equ	USICNT1	= 1	; USI Counter Value Bit 1
+                 .equ	USICNT2	= 2	; USI Counter Value Bit 2
+                 .equ	USICNT3	= 3	; USI Counter Value Bit 3
+                 .equ	USIDC	= 4	; Data Output Collision
+                 .equ	USIPF	= 5	; Stop Condition Flag
+                 .equ	USIOIF	= 6	; Counter Overflow Interrupt Flag
+                 .equ	USISIF	= 7	; Start Condition Interrupt Flag
+                 
+                 ; USICR - USI Control Register
+                 .equ	USITC	= 0	; Toggle Clock Port Pin
+                 .equ	USICLK	= 1	; Clock Strobe
+                 .equ	USICS0	= 2	; USI Clock Source Select Bit 0
+                 .equ	USICS1	= 3	; USI Clock Source Select Bit 1
+                 .equ	USIWM0	= 4	; USI Wire Mode Bit 0
+                 .equ	USIWM1	= 5	; USI Wire Mode Bit 1
+                 .equ	USIOIE	= 6	; Counter Overflow Interrupt Enable
+                 .equ	USISIE	= 7	; Start Condition Interrupt Enable
+                 
+                 
+                 ; ***** EXTERNAL_INTERRUPT ***********
+                 ; MCUCR - MCU Control Register
+                 .equ	ISC00	= 0	; Interrupt Sense Control 0 Bit 0
+                 .equ	ISC01	= 1	; Interrupt Sense Control 0 Bit 1
+                 
+                 ; GIMSK - General Interrupt Mask Register
+                 .equ	GICR	= GIMSK	; For compatibility
+                 .equ	PCIE	= 5	; Pin Change Interrupt Enable
+                 .equ	INT0	= 6	; External Interrupt Request 0 Enable
+                 
+                 ; GIFR - General Interrupt Flag register
+                 .equ	PCIF	= 5	; Pin Change Interrupt Flag
+                 .equ	INTF0	= 6	; External Interrupt Flag 0
+                 
+                 ; PCMSK - Pin Change Enable Mask
+                 .equ	PCINT0	= 0	; Pin Change Enable Mask Bit 0
+                 .equ	PCINT1	= 1	; Pin Change Enable Mask Bit 1
+                 .equ	PCINT2	= 2	; Pin Change Enable Mask Bit 2
+                 .equ	PCINT3	= 3	; Pin Change Enable Mask Bit 3
+                 .equ	PCINT4	= 4	; Pin Change Enable Mask Bit 4
+                 .equ	PCINT5	= 5	; Pin Change Enable Mask Bit 5
+                 
+                 
+                 ; ***** EEPROM ***********************
+                 ; EEARL - EEPROM Address Register Low Byte
+                 .equ	EEAR0	= 0	; EEPROM Read/Write Access Bit 0
+                 .equ	EEAR1	= 1	; EEPROM Read/Write Access Bit 1
+                 .equ	EEAR2	= 2	; EEPROM Read/Write Access Bit 2
+                 .equ	EEAR3	= 3	; EEPROM Read/Write Access Bit 3
+                 .equ	EEAR4	= 4	; EEPROM Read/Write Access Bit 4
+                 .equ	EEAR5	= 5	; EEPROM Read/Write Access Bit 5
+                 .equ	EEAR6	= 6	; EEPROM Read/Write Access Bit 6
+                 .equ	EEAR7	= 7	; EEPROM Read/Write Access Bit 7
+                 
+                 ; EEARH - EEPROM Address Register High Byte
+                 .equ	EEAR8	= 0	; EEPROM Read/Write Access Bit 0
+                 
+                 ; EEDR - EEPROM Data Register
+                 .equ	EEDR0	= 0	; EEPROM Data Register bit 0
+                 .equ	EEDR1	= 1	; EEPROM Data Register bit 1
+                 .equ	EEDR2	= 2	; EEPROM Data Register bit 2
+                 .equ	EEDR3	= 3	; EEPROM Data Register bit 3
+                 .equ	EEDR4	= 4	; EEPROM Data Register bit 4
+                 .equ	EEDR5	= 5	; EEPROM Data Register bit 5
+                 .equ	EEDR6	= 6	; EEPROM Data Register bit 6
+                 .equ	EEDR7	= 7	; EEPROM Data Register bit 7
+                 
+                 ; EECR - EEPROM Control Register
+                 .equ	EERE	= 0	; EEPROM Read Enable
+                 .equ	EEPE	= 1	; EEPROM Write Enable
+                 .equ	EEMPE	= 2	; EEPROM Master Write Enable
+                 .equ	EERIE	= 3	; EEPROM Ready Interrupt Enable
+                 .equ	EEPM0	= 4	; EEPROM Programming Mode Bit 0
+                 .equ	EEPM1	= 5	; EEPROM Programming Mode Bit 1
+                 
+                 
+                 ; ***** WATCHDOG *********************
+                 ; WDTCR - Watchdog Timer Control Register
+                 .equ	WDTCSR	= WDTCR	; For compatibility
+                 .equ	WDP0	= 0	; Watch Dog Timer Prescaler bit 0
+                 .equ	WDP1	= 1	; Watch Dog Timer Prescaler bit 1
+                 .equ	WDP2	= 2	; Watch Dog Timer Prescaler bit 2
+                 .equ	WDE	= 3	; Watch Dog Enable
+                 .equ	WDCE	= 4	; Watchdog Change Enable
+                 .equ	WDTOE	= WDCE	; For compatibility
+                 .equ	WDP3	= 5	; Watchdog Timer Prescaler Bit 3
+                 .equ	WDIE	= 6	; Watchdog Timeout Interrupt Enable
+                 .equ	WDIF	= 7	; Watchdog Timeout Interrupt Flag
+                 
+                 
+                 ; ***** TIMER_COUNTER_0 **************
+                 ; TIMSK - Timer/Counter Interrupt Mask Register
+                 .equ	TOIE0	= 1	; Timer/Counter0 Overflow Interrupt Enable
+                 .equ	OCIE0B	= 3	; Timer/Counter0 Output Compare Match B Interrupt Enable
+                 .equ	OCIE0A	= 4	; Timer/Counter0 Output Compare Match A Interrupt Enable
+                 
+                 ; TIFR - Timer/Counter0 Interrupt Flag register
+                 .equ	TOV0	= 1	; Timer/Counter0 Overflow Flag
+                 .equ	OCF0B	= 3	; Timer/Counter0 Output Compare Flag 0B
+                 .equ	OCF0A	= 4	; Timer/Counter0 Output Compare Flag 0A
+                 
+                 ; TCCR0A - Timer/Counter  Control Register A
+                 .equ	WGM00	= 0	; Waveform Generation Mode
+                 .equ	WGM01	= 1	; Waveform Generation Mode
+                 .equ	COM0B0	= 4	; Compare Output Mode, Fast PWm
+                 .equ	COM0B1	= 5	; Compare Output Mode, Fast PWm
+                 .equ	COM0A0	= 6	; Compare Output Mode, Phase Correct PWM Mode
+                 .equ	COM0A1	= 7	; Compare Output Mode, Phase Correct PWM Mode
+                 
+                 ; TCCR0B - Timer/Counter Control Register B
+                 .equ	CS00	= 0	; Clock Select
+                 .equ	CS01	= 1	; Clock Select
+                 .equ	CS02	= 2	; Clock Select
+                 .equ	WGM02	= 3	; 
+                 .equ	FOC0B	= 6	; Force Output Compare B
+                 .equ	FOC0A	= 7	; Force Output Compare A
+                 
+                 ; TCNT0 - Timer/Counter0
+                 .equ	TCNT0_0	= 0	; 
+                 .equ	TCNT0_1	= 1	; 
+                 .equ	TCNT0_2	= 2	; 
+                 .equ	TCNT0_3	= 3	; 
+                 .equ	TCNT0_4	= 4	; 
+                 .equ	TCNT0_5	= 5	; 
+                 .equ	TCNT0_6	= 6	; 
+                 .equ	TCNT0_7	= 7	; 
+                 
+                 ; OCR0A - Timer/Counter0 Output Compare Register
+                 .equ	OCR0_0	= 0	; 
+                 .equ	OCR0_1	= 1	; 
+                 .equ	OCR0_2	= 2	; 
+                 .equ	OCR0_3	= 3	; 
+                 .equ	OCR0_4	= 4	; 
+                 .equ	OCR0_5	= 5	; 
+                 .equ	OCR0_6	= 6	; 
+                 .equ	OCR0_7	= 7	; 
+                 
+                 ; OCR0B - Timer/Counter0 Output Compare Register
+                 ;.equ	OCR0_0	= 0	; 
+                 ;.equ	OCR0_1	= 1	; 
+                 ;.equ	OCR0_2	= 2	; 
+                 ;.equ	OCR0_3	= 3	; 
+                 ;.equ	OCR0_4	= 4	; 
+                 ;.equ	OCR0_5	= 5	; 
+                 ;.equ	OCR0_6	= 6	; 
+                 ;.equ	OCR0_7	= 7	; 
+                 
+                 ; GTCCR - General Timer/Counter Control Register
+                 .equ	PSR0	= 0	; Prescaler Reset Timer/Counter1 and Timer/Counter0
+                 .equ	TSM	= 7	; Timer/Counter Synchronization Mode
+                 
+                 
+                 ; ***** TIMER_COUNTER_1 **************
+                 ; TCCR1 - Timer/Counter Control Register
+                 .equ	CS10	= 0	; Clock Select Bits
+                 .equ	CS11	= 1	; Clock Select Bits
+                 .equ	CS12	= 2	; Clock Select Bits
+                 .equ	CS13	= 3	; Clock Select Bits
+                 .equ	COM1A0	= 4	; Compare Output Mode, Bit 1
+                 .equ	COM1A1	= 5	; Compare Output Mode, Bit 0
+                 .equ	PWM1A	= 6	; Pulse Width Modulator Enable
+                 .equ	CTC1	= 7	; Clear Timer/Counter on Compare Match
+                 
+                 ; TCNT1 - Timer/Counter Register
+                 .equ	TCNT1_0	= 0	; Timer/Counter Register Bit 0
+                 .equ	TCNT1_1	= 1	; Timer/Counter Register Bit 1
+                 .equ	TCNT1_2	= 2	; Timer/Counter Register Bit 2
+                 .equ	TCNT1_3	= 3	; Timer/Counter Register Bit 3
+                 .equ	TCNT1_4	= 4	; Timer/Counter Register Bit 4
+                 .equ	TCNT1_5	= 5	; Timer/Counter Register Bit 5
+                 .equ	TCNT1_6	= 6	; Timer/Counter Register Bit 6
+                 .equ	TCNT1_7	= 7	; Timer/Counter Register Bit 7
+                 
+                 ; OCR1A - Output Compare Register
+                 .equ	OCR1A0	= 0	; Output Compare Register A Bit 0
+                 .equ	OCR1A1	= 1	; Output Compare Register A Bit 1
+                 .equ	OCR1A2	= 2	; Output Compare Register A Bit 2
+                 .equ	OCR1A3	= 3	; Output Compare Register A Bit 3
+                 .equ	OCR1A4	= 4	; Output Compare Register A Bit 4
+                 .equ	OCR1A5	= 5	; Output Compare Register A Bit 5
+                 .equ	OCR1A6	= 6	; Output Compare Register A Bit 6
+                 .equ	OCR1A7	= 7	; Output Compare Register A Bit 7
+                 
+                 ; OCR1B - Output Compare Register
+                 .equ	OCR1B0	= 0	; Output Compare Register B Bit 0
+                 .equ	OCR1B1	= 1	; Output Compare Register B Bit 1
+                 .equ	OCR1B2	= 2	; Output Compare Register B Bit 2
+                 .equ	OCR1B3	= 3	; Output Compare Register B Bit 3
+                 .equ	OCR1B4	= 4	; Output Compare Register B Bit 4
+                 .equ	OCR1B5	= 5	; Output Compare Register B Bit 5
+                 .equ	OCR1B6	= 6	; Output Compare Register B Bit 6
+                 .equ	OCR1B7	= 7	; Output Compare Register B Bit 7
+                 
+                 ; OCR1C - Output compare register
+                 .equ	OCR1C0	= 0	; 
+                 .equ	OCR1C1	= 1	; 
+                 .equ	OCR1C2	= 2	; 
+                 .equ	OCR1C3	= 3	; 
+                 .equ	OCR1C4	= 4	; 
+                 .equ	OCR1C5	= 5	; 
+                 .equ	OCR1C6	= 6	; 
+                 .equ	OCR1C7	= 7	; 
+                 
+                 ; TIMSK - Timer/Counter Interrupt Mask Register
+                 .equ	TOIE1	= 2	; Timer/Counter1 Overflow Interrupt Enable
+                 .equ	OCIE1B	= 5	; OCIE1A: Timer/Counter1 Output Compare B Interrupt Enable
+                 .equ	OCIE1A	= 6	; OCIE1A: Timer/Counter1 Output Compare Interrupt Enable
+                 
+                 ; TIFR - Timer/Counter Interrupt Flag Register
+                 .equ	TOV1	= 2	; Timer/Counter1 Overflow Flag
+                 .equ	OCF1B	= 5	; Timer/Counter1 Output Compare Flag 1B
+                 .equ	OCF1A	= 6	; Timer/Counter1 Output Compare Flag 1A
+                 
+                 ; GTCCR - Timer counter control register
+                 .equ	PSR1	= 1	; Prescaler Reset Timer/Counter1
+                 .equ	FOC1A	= 2	; Force Output Compare 1A
+                 .equ	FOC1B	= 3	; Force Output Compare Match 1B
+                 .equ	COM1B0	= 4	; Comparator B Output Mode
+                 .equ	COM1B1	= 5	; Comparator B Output Mode
+                 .equ	PWM1B	= 6	; Pulse Width Modulator B Enable
+                 
+                 ; DTPS - Dead time prescaler register
+                 .equ	DTPS0	= 0	; 
+                 .equ	DTPS1	= 1	; 
+                 
+                 ; DT1A - Dead time value register
+                 .equ	DTVL0	= 0	; 
+                 .equ	DTVL1	= 1	; 
+                 .equ	DTVL2	= 2	; 
+                 .equ	DTVL3	= 3	; 
+                 .equ	DTVH0	= 4	; 
+                 .equ	DTVH1	= 5	; 
+                 .equ	DTVH2	= 6	; 
+                 .equ	DTVH3	= 7	; 
+                 
+                 ; DT1B - Dead time value B
+                 ;.equ	DTVL0	= 0	; 
+                 ;.equ	DTVL1	= 1	; 
+                 ;.equ	DTVL2	= 2	; 
+                 ;.equ	DTVL3	= 3	; 
+                 ;.equ	DTVH0	= 4	; 
+                 ;.equ	DTVH1	= 5	; 
+                 ;.equ	DTVH2	= 6	; 
+                 ;.equ	DTVH3	= 7	; 
+                 
+                 
+                 ; ***** CPU **************************
+                 ; SREG - Status Register
+                 .equ	SREG_C	= 0	; Carry Flag
+                 .equ	SREG_Z	= 1	; Zero Flag
+                 .equ	SREG_N	= 2	; Negative Flag
+                 .equ	SREG_V	= 3	; Two's Complement Overflow Flag
+                 .equ	SREG_S	= 4	; Sign Bit
+                 .equ	SREG_H	= 5	; Half Carry Flag
+                 .equ	SREG_T	= 6	; Bit Copy Storage
+                 .equ	SREG_I	= 7	; Global Interrupt Enable
+                 
+                 ; MCUCR - MCU Control Register
+                 ;.equ	ISC00	= 0	; Interrupt Sense Control 0 bit 0
+                 ;.equ	ISC01	= 1	; Interrupt Sense Control 0 bit 1
+                 .equ	BODSE	= 2	; BOD Sleep Enable
+                 .equ	SM0	= 3	; Sleep Mode Select Bit 0
+                 .equ	SM1	= 4	; Sleep Mode Select Bit 1
+                 .equ	SE	= 5	; Sleep Enable
+                 .equ	PUD	= 6	; Pull-up Disable
+                 .equ	BODS	= 7	; BOD Sleep
+                 
+                 ; MCUSR - MCU Status register
+                 .equ	PORF	= 0	; Power-On Reset Flag
+                 .equ	EXTRF	= 1	; External Reset Flag
+                 .equ	BORF	= 2	; Brown-out Reset Flag
+                 .equ	WDRF	= 3	; Watchdog Reset Flag
+                 
+                 ; PRR - Power Reduction Register
+                 .equ	PRADC	= 0	; Power Reduction ADC
+                 .equ	PRUSI	= 1	; Power Reduction USI
+                 .equ	PRTIM0	= 2	; Power Reduction Timer/Counter0
+                 .equ	PRTIM1	= 3	; Power Reduction Timer/Counter1
+                 
+                 ; OSCCAL - Oscillator Calibration Register
+                 .equ	CAL0	= 0	; Oscillatro Calibration Value Bit 0
+                 .equ	CAL1	= 1	; Oscillatro Calibration Value Bit 1
+                 .equ	CAL2	= 2	; Oscillatro Calibration Value Bit 2
+                 .equ	CAL3	= 3	; Oscillatro Calibration Value Bit 3
+                 .equ	CAL4	= 4	; Oscillatro Calibration Value Bit 4
+                 .equ	CAL5	= 5	; Oscillatro Calibration Value Bit 5
+                 .equ	CAL6	= 6	; Oscillatro Calibration Value Bit 6
+                 .equ	CAL7	= 7	; Oscillatro Calibration Value Bit 7
+                 
+                 ; PLLCSR - PLL Control and status register
+                 .equ	PLOCK	= 0	; PLL Lock detector
+                 .equ	PLLE	= 1	; PLL Enable
+                 .equ	PCKE	= 2	; PCK Enable
+                 .equ	LSM	= 7	; Low speed mode
+                 
+                 ; CLKPR - Clock Prescale Register
+                 .equ	CLKPS0	= 0	; Clock Prescaler Select Bit 0
+                 .equ	CLKPS1	= 1	; Clock Prescaler Select Bit 1
+                 .equ	CLKPS2	= 2	; Clock Prescaler Select Bit 2
+                 .equ	CLKPS3	= 3	; Clock Prescaler Select Bit 3
+                 .equ	CLKPCE	= 7	; Clock Prescaler Change Enable
+                 
+                 ; DWDR - debugWire data register
+                 .equ	DWDR0	= 0	; 
+                 .equ	DWDR1	= 1	; 
+                 .equ	DWDR2	= 2	; 
+                 .equ	DWDR3	= 3	; 
+                 .equ	DWDR4	= 4	; 
+                 .equ	DWDR5	= 5	; 
+                 .equ	DWDR6	= 6	; 
+                 .equ	DWDR7	= 7	; 
+                 
+                 ; GPIOR2 - General Purpose IO register 2
+                 .equ	GPIOR20	= 0	; 
+                 .equ	GPIOR21	= 1	; 
+                 .equ	GPIOR22	= 2	; 
+                 .equ	GPIOR23	= 3	; 
+                 .equ	GPIOR24	= 4	; 
+                 .equ	GPIOR25	= 5	; 
+                 .equ	GPIOR26	= 6	; 
+                 .equ	GPIOR27	= 7	; 
+                 
+                 ; GPIOR1 - General Purpose register 1
+                 .equ	GPIOR10	= 0	; 
+                 .equ	GPIOR11	= 1	; 
+                 .equ	GPIOR12	= 2	; 
+                 .equ	GPIOR13	= 3	; 
+                 .equ	GPIOR14	= 4	; 
+                 .equ	GPIOR15	= 5	; 
+                 .equ	GPIOR16	= 6	; 
+                 .equ	GPIOR17	= 7	; 
+                 
+                 ; GPIOR0 - General purpose register 0
+                 .equ	GPIOR00	= 0	; 
+                 .equ	GPIOR01	= 1	; 
+                 .equ	GPIOR02	= 2	; 
+                 .equ	GPIOR03	= 3	; 
+                 .equ	GPIOR04	= 4	; 
+                 .equ	GPIOR05	= 5	; 
+                 .equ	GPIOR06	= 6	; 
+                 .equ	GPIOR07	= 7	; 
+                 
+                 
+                 ; ***** BOOT_LOAD ********************
+                 ; SPMCSR - Store Program Memory Control Register
+                 .equ	SPMEN	= 0	; Store Program Memory Enable
+                 .equ	PGERS	= 1	; Page Erase
+                 .equ	PGWRT	= 2	; Page Write
+                 .equ	RFLB	= 3	; Read fuse and lock bits
+                 .equ	CTPB	= 4	; Clear temporary page buffer
+                 
+                 
+                 
+                 ; ***** LOCKSBITS ********************************************************
+                 .equ	LB1	= 0	; Lockbit
+                 .equ	LB2	= 1	; Lockbit
+                 
+                 
+                 ; ***** FUSES ************************************************************
+                 ; LOW fuse bits
+                 .equ	CKSEL0	= 0	; Select Clock source
+                 .equ	CKSEL1	= 1	; Select Clock source
+                 .equ	CKSEL2	= 2	; Select Clock source
+                 .equ	CKSEL3	= 3	; Select Clock source
+                 .equ	SUT0	= 4	; Select start-up time
+                 .equ	SUT1	= 5	; Select start-up time
+                 .equ	CKOUT	= 6	; Clock Output Enable
+                 .equ	CKDIV8	= 7	; Divide clock by 8
+                 
+                 ; HIGH fuse bits
+                 .equ	BODLEVEL0	= 0	; Brown-out Detector trigger level
+                 .equ	BODLEVEL1	= 1	; Brown-out Detector trigger level
+                 .equ	BODLEVEL2	= 2	; Brown-out Detector trigger level
+                 .equ	EESAVE	= 3	; EEPROM memory is preserved through the Chip Erase
+                 .equ	WDTON	= 4	; Watchdog Timer always on
+                 .equ	SPIEN	= 5	; Enable Serial Program and Data Downloading
+                 .equ	DWEN	= 6	; DebugWIRE Enable
+                 .equ	RSTDISBL	= 7	; External Reset disable
+                 
+                 ; EXTENDED fuse bits
+                 .equ	SELFPRGEN	= 0	; Self-Programming Enable
+                 
+                 
+                 
+                 ; ***** CPU REGISTER DEFINITIONS *****************************************
+                 .def	XH	= r27
+                 .def	XL	= r26
+                 .def	YH	= r29
+                 .def	YL	= r28
+                 .def	ZH	= r31
+                 .def	ZL	= r30
+                 
+                 
+                 
+                 ; ***** DATA MEMORY DECLARATIONS *****************************************
+                 .equ	FLASHEND	= 0x07ff	; Note: Word address
+                 .equ	IOEND	= 0x003f
+                 .equ	SRAM_START	= 0x0060
+                 .equ	SRAM_SIZE	= 256
+                 .equ	RAMEND	= 0x015f
+                 .equ	XRAMEND	= 0x0000
+                 .equ	E2END	= 0x00ff
+                 .equ	EEPROMEND	= 0x00ff
+                 .equ	EEADRBITS	= 8
+                 #pragma AVRPART MEMORY PROG_FLASH 4096
+                 #pragma AVRPART MEMORY EEPROM 256
+                 #pragma AVRPART MEMORY INT_SRAM SIZE 256
+                 #pragma AVRPART MEMORY INT_SRAM START_ADDR 0x60
+                 
+                 
+                 
+                 ; ***** BOOTLOADER DECLARATIONS ******************************************
+                 .equ	NRWW_START_ADDR	= 0x0
+                 .equ	NRWW_STOP_ADDR	= 0x7ff
+                 .equ	RWW_START_ADDR	= 0x0
+                 .equ	RWW_STOP_ADDR	= 0x0
+                 .equ	PAGESIZE	= 32
+                 
+                 
+                 
+                 ; ***** INTERRUPT VECTORS ************************************************
+                 .equ	INT0addr	= 0x0001	; External Interrupt 0
+                 .equ	PCI0addr	= 0x0002	; Pin change Interrupt Request 0
+                 .equ	OC1Aaddr	= 0x0003	; Timer/Counter1 Compare Match 1A
+                 .equ	OVF1addr	= 0x0004	; Timer/Counter1 Overflow
+                 .equ	OVF0addr	= 0x0005	; Timer/Counter0 Overflow
+                 .equ	ERDYaddr	= 0x0006	; EEPROM Ready
+                 .equ	ACIaddr	= 0x0007	; Analog comparator
+                 .equ	ADCCaddr	= 0x0008	; ADC Conversion ready
+                 .equ	OC1Baddr	= 0x0009	; Timer/Counter1 Compare Match B
+                 .equ	OC0Aaddr	= 0x000a	; Timer/Counter0 Compare Match A
+                 .equ	OC0Baddr	= 0x000b	; Timer/Counter0 Compare Match B
+                 .equ	WDTaddr	= 0x000c	; Watchdog Time-out
+                 .equ	USI_STARTaddr	= 0x000d	; USI START
+                 .equ	USI_OVFaddr	= 0x000e	; USI Overflow
+                 
+                 .equ	INT_VECTORS_SIZE	= 15	; size in words
+                 
+                 #endif  /* _TN45DEF_INC_ */
+                 
+                 ; ***** END OF FILE ******************************************************
+                 
+                  * interface.asm
+                  *
+                  *  Created: 2015/4/23 23:35:49
+                  *   Author: nevermore
+                  */ 
+                 
+                 
+                  /*
+                  * interface.asm
+                  *
+                  *  Created: 2015/4/22 11:35:06
+                  *   Author: Zheng Gong
+                  */ 
+                  ; encrypt_main_tiny45 : generates the plain text and key internally,
+                 ; sends a trigger, encrypts and sends a second trigger
+                 ; based on http://point-at-infinity.org/avraes/rijndaelfurious.asm.html
+                 
+                 ; modify the interface by humuchuang because the label "SRAM_DATA" cannot be recognized by the file KLEIN.asm
+                 
+                 .include "tn45def.inc"
+                 
+                 ;***** Created: 2011-02-09 12:04 ******* Source: ATtiny45.xml ************
+                 ;*************************************************************************
+                 ;* A P P L I C A T I O N   N O T E   F O R   T H E   A V R   F A M I L Y
+                 ;* 
+                 ;* Number            : AVR000
+                 ;* File Name         : "tn45def.inc"
+                 ;* Title             : Register/Bit Definitions for the ATtiny45
+                 ;* Date              : 2011-02-09
+                 ;* Version           : 2.35
+                 ;* Support E-mail    : avr@atmel.com
+                 ;* Target MCU        : ATtiny45
+                 ;* 
+                 ;* DESCRIPTION
+                 ;* When including this file in the assembly program file, all I/O register 
+                 ;* names and I/O register bit names appearing in the data book can be used.
+                 ;* In addition, the six registers forming the three data pointers X, Y and 
+                 ;* Z have been assigned names XL - ZH. Highest RAM address for Internal 
+                 ;* SRAM is also defined 
+                 ;* 
+                 ;* The Register names are represented by their hexadecimal address.
+                 ;* 
+                 ;* The Register Bit names are represented by their bit number (0-7).
+                 ;* 
+                 ;* Please observe the difference in using the bit names with instructions
+                 ;* such as "sbr"/"cbr" (set/clear bit in register) and "sbrs"/"sbrc"
+                 ;* (skip if bit in register set/cleared). The following example illustrates
+                 ;* this:
+                 ;* 
+                 ;* in    r16,PORTB             ;read PORTB latch
+                 ;* sbr   r16,(1<<PB6)+(1<<PB5) ;set PB6 and PB5 (use masks, not bit#)
+                 ;* out   PORTB,r16             ;output to PORTB
+                 ;* 
+                 ;* in    r16,TIFR              ;read the Timer Interrupt Flag Register
+                 ;* sbrc  r16,TOV0              ;test the overflow flag (use bit#)
+                 ;* rjmp  TOV0_is_set           ;jump if set
+                 ;* ...                         ;otherwise do something else
+                 ;*************************************************************************
+                 
+                 #ifndef _TN45DEF_INC_
+                 #endif  /* _TN45DEF_INC_ */
+                 
+                 ; ***** END OF FILE ******************************************************
+                 
+                 ; Define the cipher to include here (#define <cipher>)
+                 #define	rectangle;(currently works for aes, desxl, hight, idea, kasumi, katan, klein, mcrypton, noekeon, present, sea, tea)
+                 
+                 
+                 .ORG 0x0000
+                 ; global interrupt disable
+000000 94f8      	cli
+                 ; initialize stack
+000001 e0f1      	ldi		r31,HIGH(RAMEND)
+000002 bffe      	out		SPH,r31
+000003 e5ff      	ldi		r31,LOW(RAMEND)
+000004 bffd      	out		SPL,r31
+                 
+                 ; initialize trigger B1
+000005 e003        	ldi		r16, 0b11	; portB,1 = output (triggers)
+000006 bb07        	out		DDRB, r16
+                 
+000007 c524      	rjmp	main
+                 
+                 
+                 ;******************* INCLUDE FILES *******************************
+                 ; include encryption algorithm
+                 #ifdef	aes
+                 #elif aesfurious
+                 #elif rectangle
+                     .include "./LED64FlashRCSmallFlash.asm";"./Rectangle128OnTheFly.asm";"Rectangle80.asm"
+                 
+                 
+                 ; Constants
+                 ;
+                 .EQU    PTEXT_NUM_BYTE = (8*8)
+                 .EQU    PTEXT_NUM_BYTE_SWAP = (8*8)
+                 
+                 .EQU    KEY_NUM_BYTE = 8
+                 
+                 ; Registers declarations
+                 .def row00 =r0
+                 .def row10 =r1
+                 .def row20 =r2
+                 .def row30 =r3
+                 .def row01 =r4
+                 .def row11 =r5
+                 .def row21 =r6
+                 .def row31 =r7
+                 .def row02 =r8
+                 .def row12 =r9
+                 .def row22 =r10
+                 .def row32 =r11
+                 .def row03 =r12
+                 .def row13 =r13
+                 .def row23 =r14
+                 .def row33 =r15
+                 
+                 .def t0 =r16
+                 .def t1 =r17
+                 .def t2 =r18
+                 .def t3 =r19
+                 
+                 .def c0 =r20
+                 .def c1 =r21
+                 
+                 .def rcZL =r22
+                 .def rcZH =r23
+                 
+                 .def k0 =r16
+                 .def k1 =r17
+                 
+                 .def rrn   =r24
+                 .def rcnt  =r25
+                 
+                 .def XL =r26
+                 .def XH =r27
+                 .def YL =r28
+                 .def YH =r29
+                 .def ZL =r30
+                 .def ZH =r31
+                 
+                 ;;;****************************************************************************
+                 ;;;
+                 .MACRO load_column
+                 	ldd  row30, Y+ @0 * 16 + 0
+                 	ldd  row31, Y+ @0 * 16 + 1
+                 	ldd  row32, Y+ @0 * 16 + 2
+                 	ldd  row33, Y+ @0 * 16 + 3
+                 	
+                 	ldd  row20, Y+ @0 * 16 + 4
+                 	ldd  row21, Y+ @0 * 16 + 5
+                 	ldd  row22, Y+ @0 * 16 + 6
+                 	ldd  row23, Y+ @0 * 16 + 7
+                 	
+                 	ldd  row10, Y+ @0 * 16 + 8 
+                 	ldd  row11, Y+ @0 * 16 + 9 
+                 	ldd  row12, Y+ @0 * 16 + 10
+                 	ldd  row13, Y+ @0 * 16 + 11
+                 	
+                 	ldd  row00, Y+ @0 * 16 + 12
+                 	ldd  row01, Y+ @0 * 16 + 13
+                 	ldd  row02, Y+ @0 * 16 + 14
+                 	ldd  row03, Y+ @0 * 16 + 15
+                 .ENDMACRO
+                 
+                 .MACRO store_column
+                 	std  Y+ @0 * 16 + 15, row03
+                 	std  Y+ @0 * 16 + 14, row02
+                 	std  Y+ @0 * 16 + 13, row01
+                 	std  Y+ @0 * 16 + 12, row00
+                 
+                 	std  Y+ @0 * 16 + 11, row13
+                 	std  Y+ @0 * 16 + 10, row12
+                 	std  Y+ @0 * 16 + 9 , row11
+                 	std  Y+ @0 * 16 + 8 , row10
+                 
+                 	std  Y+ @0 * 16 + 7 , row23
+                 	std  Y+ @0 * 16 + 6 , row22
+                 	std  Y+ @0 * 16 + 5 , row21
+                 	std  Y+ @0 * 16 + 4 , row20
+                 
+                 	std  Y+ @0 * 16 + 3 , row33
+                 	std  Y+ @0 * 16 + 2 , row32
+                 	std  Y+ @0 * 16 + 1 , row31
+                 	std  Y+ @0 * 16 + 0 , row30
+                 .ENDMACRO
+                 
+                 .MACRO store_columnSwitch
+                 	std  Y+ @0 * 16 + 15, row01
+                 	std  Y+ @0 * 16 + 14, row00
+                 	std  Y+ @0 * 16 + 13, row03
+                 	std  Y+ @0 * 16 + 12, row02
+                 
+                 	std  Y+ @0 * 16 + 11, row11
+                 	std  Y+ @0 * 16 + 10, row10
+                 	std  Y+ @0 * 16 + 9 , row13
+                 	std  Y+ @0 * 16 + 8 , row12
+                 
+                 	std  Y+ @0 * 16 + 7 , row21
+                 	std  Y+ @0 * 16 + 6 , row20
+                 	std  Y+ @0 * 16 + 5 , row23
+                 	std  Y+ @0 * 16 + 4 , row22
+                 
+                 	std  Y+ @0 * 16 + 3 , row31
+                 	std  Y+ @0 * 16 + 2 , row30
+                 	std  Y+ @0 * 16 + 1 , row33
+                 	std  Y+ @0 * 16 + 0 , row32
+                 .ENDMACRO
+                 
+                 .MACRO load_column_forward
+                 	movw t0,  Y
+                 	movw  Y,  Z
+                 	movw  Z, t0
+                 
+                 	ldd  row30, Y + 0
+                 	ldd  row31, Y + 1
+                 	ldd  row32, Y + 2
+                 	ldd  row33, Y + 3
+                 	
+                 	ldd  row20, Y + 4
+                 	ldd  row21, Y + 5
+                 	ldd  row22, Y + 6
+                 	ldd  row23, Y + 7
+                 
+                 	ldd  row00, Y + 12
+                 	ldd  row01, Y + 13
+                 	ldd  row02, Y + 14
+                 	ldd  row03, Y + 15
+                 .ENDMACRO
+                 
+                 columnXor:
+000008 fd00      	sbrc k0, 0
+000009 9430      	com row30
+00000a fd01      	sbrc k0, 1
+00000b 9470      	com row31
+00000c fd02      	sbrc k0, 2
+00000d 94b0      	com row32
+00000e fd03      	sbrc k0, 3
+00000f 94f0      	com row33
+                 	
+000010 fd04      	sbrc k0, 4
+000011 9420      	com row20
+000012 fd05      	sbrc k0, 5
+000013 9460      	com row21
+000014 fd06      	sbrc k0, 6
+000015 94a0      	com row22
+000016 fd07      	sbrc k0, 7
+000017 94e0      	com row23
+                 	
+000018 fd10      	sbrc k1, 0
+000019 9410      	com row10
+00001a fd11      	sbrc k1, 1
+00001b 9450      	com row11
+00001c fd12      	sbrc k1, 2
+00001d 9490      	com row12
+00001e fd13      	sbrc k1, 3
+00001f 94d0      	com row13
+                 	
+000020 fd14      	sbrc k1, 4
+000021 9400      	com row00
+000022 fd15      	sbrc k1, 5
+000023 9440      	com row01
+000024 fd16      	sbrc k1, 6
+000025 9480      	com row02
+000026 fd17      	sbrc k1, 7
+000027 94c0      	com row03
+000028 9508      ret
+                 
+                 Sbox:
+                 	; a = row10:row00
+                 	; b = row11:row01
+                 	; c = row12:row02
+                 	; d = row13:row03
+000029 2448      	eor  row01, row02
+00002a 2459      	eor  row11, row12
+00002b 0184      	movw t0, row02
+00002c 2104      	and  t0, row01
+00002d 2115      	and  t1, row11
+00002e 26c0      	eor  row03, t0
+00002f 26d1      	eor  row13, t1
+000030 0186      	movw t0, row03
+000031 20c4      	and  row03, row01
+000032 20d5      	and  row13, row11
+000033 24c8      	eor  row03, row02
+000034 24d9      	eor  row13, row12
+000035 0196      	movw t2, row03
+000036 24c0      	eor  row03, row00
+000037 24d1      	eor  row13, row10
+000038 94c0      	com  row03
+000039 94d0      	com  row13
+00003a 0146      	movw row02, row03
+00003b 2920      	or   t2, row00
+00003c 2931      	or   t3, row10
+00003d 2600      	eor  row00, t0
+00003e 2611      	eor  row10, t1
+00003f 2440      	eor  row01, row00
+000040 2451      	eor  row11, row10
+000041 2884      	or   row02, row01
+000042 2895      	or   row12, row11
+000043 2680      	eor  row02, t0
+000044 2691      	eor  row12, t1
+000045 2642      	eor  row01, t2
+000046 2653      	eor  row11, t3
+000047 24c4      	eor  row03, row01
+000048 24d5      	eor  row13, row11
+                 
+                 
+                 	; a = row30:row20
+                 	; b = row31:row21
+                 	; c = row32:row22
+                 	; d = row33:row23
+000049 246a      	eor  row21, row22
+00004a 247b      	eor  row31, row32
+00004b 0185      	movw t0, row22
+00004c 2106      	and  t0, row21
+00004d 2117      	and  t1, row31
+00004e 26e0      	eor  row23, t0
+00004f 26f1      	eor  row33, t1
+000050 0187      	movw t0, row23
+000051 20e6      	and  row23, row21
+000052 20f7      	and  row33, row31
+000053 24ea      	eor  row23, row22
+000054 24fb      	eor  row33, row32
+000055 0197      	movw t2, row23
+000056 24e2      	eor  row23, row20
+000057 24f3      	eor  row33, row30
+000058 94e0      	com  row23
+000059 94f0      	com  row33
+00005a 0157      	movw row22, row23
+00005b 2922      	or   t2, row20
+00005c 2933      	or   t3, row30
+00005d 2620      	eor  row20, t0
+00005e 2631      	eor  row30, t1
+00005f 2462      	eor  row21, row20
+000060 2473      	eor  row31, row30
+000061 28a6      	or   row22, row21
+000062 28b7      	or   row32, row31
+000063 26a0      	eor  row22, t0
+000064 26b1      	eor  row32, t1
+000065 2662      	eor  row21, t2
+000066 2673      	eor  row31, t3
+000067 24e6      	eor  row23, row21
+000068 24f7      	eor  row33, row31
+000069 9508      ret
+                 
+                 SboxSwitch:
+                 	; a = row10:row00
+                 	; b = row11:row01
+                 	; c = row12:row02
+                 	; d = row13:row03
+00006a 24c0      	eor  row03, row00		
+00006b 24d1      	eor  row13, row10
+00006c 0184      	movw t0, row02
+00006d 0146      	movw row02, row03
+00006e 20c0      	and  row03, row00
+00006f 20d1      	and  row13, row10
+000070 24c4      	eor  row03, row01
+000071 24d5      	eor  row13, row11
+000072 0196      	movw t2, row03
+000073 20c8      	and  row03, row02
+000074 20d9      	and  row13, row12
+000075 24c0      	eor  row03, row00
+000076 24d1      	eor  row13, row10
+000077 0126      	movw row01, row03
+000078 2a40      	or   row01, t0
+000079 2a51      	or   row11, t1
+00007a 0109      	movw row00, t2
+00007b 2600      	eor  row00, t0
+00007c 2611      	eor  row10, t1
+00007d 2480      	eor  row02, row00
+00007e 2491      	eor  row12, row10
+00007f 2448      	eor  row01, row02
+000080 2459      	eor  row11, row12
+000081 9500      	com  t0
+000082 9510      	com  t1
+000083 26c0      	eor  row03, t0
+000084 26d1      	eor  row13, t1
+000085 288c      	or   row02, row03
+000086 289d      	or   row12, row13
+000087 2682      	eor  row02, t2
+000088 2693      	eor  row12, t3
+000089 24c4      	eor  row03, row01
+00008a 24d5      	eor  row13, row11
+                 
+                 	; a = row30:row20
+                 	; b = row31:row21
+                 	; c = row32:row22
+                 	; d = row33:row23
+00008b 24c0      	eor  row03, row00		
+00008c 24d1      	eor  row13, row10
+00008d 0184      	movw t0, row02
+00008e 0146      	movw row02, row03
+00008f 20c0      	and  row03, row00
+000090 20d1      	and  row13, row10
+000091 24c4      	eor  row03, row01
+000092 24d5      	eor  row13, row11
+000093 0196      	movw t2, row03
+000094 20c8      	and  row03, row02
+000095 20d9      	and  row13, row12
+000096 24c0      	eor  row03, row00
+000097 24d1      	eor  row13, row10
+000098 0126      	movw row01, row03
+000099 2a40      	or   row01, t0
+00009a 2a51      	or   row11, t1
+00009b 0109      	movw row00, t2
+00009c 2600      	eor  row00, t0
+00009d 2611      	eor  row10, t1
+00009e 2480      	eor  row02, row00
+00009f 2491      	eor  row12, row10
+0000a0 2448      	eor  row01, row02
+0000a1 2459      	eor  row11, row12
+0000a2 9500      	com  t0
+0000a3 9510      	com  t1
+0000a4 26c0      	eor  row03, t0
+0000a5 26d1      	eor  row13, t1
+0000a6 288c      	or   row02, row03
+0000a7 289d      	or   row12, row13
+0000a8 2682      	eor  row02, t2
+0000a9 2693      	eor  row12, t3
+0000aa 24c4      	eor  row03, row01
+0000ab 24d5      	eor  row13, row11
+0000ac 9508      ret
+                 
+                 ;;;****************************************************************************
+                 ;;; MixColumn
+                 #ifdef MixColumnMACRO
+                 .MACRO MixColumn
+                 #else
+                 #endif
+                 	// A1
+                 	eor  row01, row13
+                 	eor  row00, row12
+                 	eor  row03, row11
+                 	eor  row02, row10
+                 	eor  row01, row22
+                 	eor  row00, row21
+                 	eor  row03, row20
+                 	eor  row02, row23
+                 	eor  row01, row32
+                 	eor  row00, row31
+                 	eor  row03, row30
+                 	eor  row02, row33
+                 	eor  row00, row03
+                 	eor  row03, row02
+                 	eor  row03, row23
+                 	eor  row03, row33
+                 
+                 	// A2
+                 	eor  row11, row23
+                 	eor  row10, row22
+                 	eor  row13, row21
+                 	eor  row12, row20
+                 	eor  row11, row32
+                 	eor  row10, row31
+                 	eor  row13, row30
+                 	eor  row12, row33
+                 	eor  row11, row00
+                 	eor  row10, row03
+                 	eor  row13, row02
+                 	eor  row12, row01
+                 	eor  row10, row13
+                 	eor  row13, row12
+                 	eor  row13, row33
+                 	eor  row13, row01
+                 
+                 	// A3
+                 	eor  row21, row33
+                 	eor  row20, row32
+                 	eor  row23, row31
+                 	eor  row22, row30
+                 	eor  row21, row00
+                 	eor  row20, row03
+                 	eor  row23, row02
+                 	eor  row22, row01
+                 	eor  row21, row10
+                 	eor  row20, row13
+                 	eor  row23, row12
+                 	eor  row22, row11
+                 	eor  row20, row23
+                 	eor  row23, row22
+                 	eor  row23, row01
+                 	eor  row23, row11
+                 
+                 	// A4
+                 	eor  row31, row01
+                 	eor  row30, row00
+                 	eor  row33, row03
+                 	eor  row32, row02
+                 	eor  row31, row10
+                 	eor  row30, row13
+                 	eor  row33, row12
+                 	eor  row32, row11
+                 	eor  row31, row20
+                 	eor  row30, row23
+                 	eor  row33, row22
+                 	eor  row32, row21
+                 	eor  row30, row33
+                 	eor  row33, row32
+                 	eor  row33, row11
+                 	eor  row33, row21
+                 
+                 	;movw t0, row00
+                 	;movw row00, row02
+                 	;movw row02, t0
+                 	;movw t0, row01
+                 	;movw row01, row03
+                 	;movw row03, t0
+                 	;movw t0, row20
+                 	;movw row20, row22
+                 	;movw row22, t0
+                 	;movw t0, row21
+                 	;movw row21, row23
+                 	;movw row23, t0
+                 #ifdef MixColumnMACRO
+                 .ENDMACRO
+                 #else
+                 #endif
+                 
+                 .MACRO KeyXor_Pre
+                 	ld  k0, X+
+                 	ld  k1, X+
+                 .ENDMACRO
+                 
+                 .MACRO KeyRCXor_col2_Pre
+                 	movw k0, ZL
+                 	movw ZL, rcZL
+                 	lpm  t2, Z+
+                 	movw rcZL, ZL
+                 	mov  t3, t2
+                 	andi t2, 0b00000111
+                 	lsl  t3
+                 	andi t3, 0b01110000
+                 	eor  t2, t3
+                 	movw ZL, k0
+                 
+                 	ld  k0, X+
+                 	ld  k1, X+
+                 	eor k0, t2
+                 	eor k1, t2
+                 .ENDMACRO
+                 
+                 .MACRO KeyRCXor_col3_Pre
+                 	ld  k0, X+
+                 	ld  k1, X+
+                 	eor k0, c0
+                 	eor k1, c1
+                 .ENDMACRO
+                 
+                 .MACRO	columnXor_Sbox
+                 	rcall columnXor
+                 	rcall Sbox
+                 .ENDMACRO
+                 
+                 .MACRO RCXor_col3Switch
+                 	com  row12
+                 	com  row23
+                 	com  row32
+                 	com  row33
+                 .ENDMACRO
+                 
+                 .MACRO RCXor_col2Switch
+                 	movw t2, ZL
+                 	movw ZL, rcZL
+                 	lpm  k0, Z+
+                 	movw rcZL, ZL
+                 	movw ZL, t2
+                 
+                 	bst  k0, 5
+                 	brtc rc5
+                 	com  row00
+                 	com  row20
+                 rc5:
+                 	bst  k0, 4
+                 	brtc rc4
+                 	com  row03
+                 	com  row23
+                 rc4:
+                 	bst  k0, 3
+                 	brtc rc3
+                 	com  row02
+                 	com  row22
+                 rc3:
+                 	bst  k0, 2
+                 	brtc rc2
+                 	com  row10
+                 	com  row30
+                 rc2:
+                 	bst  k0, 1
+                 	brtc rc1
+                 	com  row13
+                 	com  row33
+                 rc1:
+                 	bst  k0, 0
+                 	brtc rc0
+                 	com  row12
+                 	com  row32
+                 rc0:
+                 .ENDMACRO
+                 
+                 .MACRO MixColumn_SboxSwitch
+                 #ifdef MixColumnMACRO
+                 	MixColumn
+                 #else
+                 #endif
+                 	rcall SboxSwitch
+                 .ENDMACRO
+                 
+                 .MACRO MixColumn_RCXor_col2_SboxSwitch
+                 #ifdef MixColumnMACRO
+                 	MixColumn
+                 #else
+                 #endif
+                 	RCXor_col2Switch
+                 	rcall SboxSwitch
+                 .ENDMACRO
+                 
+                 .MACRO MixColumn_RCXor_col3_SboxSwitch
+                 #ifdef MixColumnMACRO
+                 	MixColumn
+                 #else
+                 #endif
+                 	RCXor_col3Switch
+                 	rcall SboxSwitch
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column01_row0
+                 	std  Z+ 0+12, row00
+                 	std  Z+ 0+13, row01
+                 	std  Z+ 0+14, row02
+                 	std  Z+ 0+15, row03
+                 	ldd  row00, Y+16+12
+                 	ldd  row01, Y+16+13
+                 	ldd  row02, Y+16+14
+                 	ldd  row03, Y+16+15
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column01_row1
+                 	std  Z+16+ 8, row10
+                 	std  Z+16+ 9, row11
+                 	std  Z+16+10, row12
+                 	std  Z+16+11, row13
+                 	ldd  row10, Y+16+ 8
+                 	ldd  row11, Y+16+ 9
+                 	ldd  row12, Y+16+10
+                 	ldd  row13, Y+16+11
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column01_row2
+                 	std  Z+32+4, row20
+                 	std  Z+32+5, row21
+                 	std  Z+32+6, row22
+                 	std  Z+32+7, row23
+                 	ldd  row20, Y+16+4
+                 	ldd  row21, Y+16+5
+                 	ldd  row22, Y+16+6
+                 	ldd  row23, Y+16+7
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column01_row3
+                 	std  Z+48+0, row30
+                 	std  Z+48+1, row31
+                 	std  Z+48+2, row32
+                 	std  Z+48+3, row33
+                 	ldd  row30, Y+16+0
+                 	ldd  row31, Y+16+1
+                 	ldd  row32, Y+16+2
+                 	ldd  row33, Y+16+3
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column12_row0
+                 	std  Z+16+12, row00
+                 	std  Z+16+13, row01
+                 	std  Z+16+14, row02
+                 	std  Z+16+15, row03
+                 	ldd  row00, Y+32+12
+                 	ldd  row01, Y+32+13
+                 	ldd  row02, Y+32+14
+                 	ldd  row03, Y+32+15
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column12_row1
+                 	std  Z+32+ 8, row10
+                 	std  Z+32+ 9, row11
+                 	std  Z+32+10, row12
+                 	std  Z+32+11, row13
+                 	ldd  row10, Y+32+ 8
+                 	ldd  row11, Y+32+ 9
+                 	ldd  row12, Y+32+10
+                 	ldd  row13, Y+32+11
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column12_row2
+                 	std  Z+48+4, row20
+                 	std  Z+48+5, row21
+                 	std  Z+48+6, row22
+                 	std  Z+48+7, row23
+                 	ldd  row20, Y+32+4
+                 	ldd  row21, Y+32+5
+                 	ldd  row22, Y+32+6
+                 	ldd  row23, Y+32+7
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column12_row3
+                 	std  Z+ 0+0, row30
+                 	std  Z+ 0+1, row31
+                 	std  Z+ 0+2, row32
+                 	std  Z+ 0+3, row33
+                 	ldd  row30, Y+32+0
+                 	ldd  row31, Y+32+1
+                 	ldd  row32, Y+32+2
+                 	ldd  row33, Y+32+3
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column23_row0
+                 	std  Z+32+12, row00
+                 	std  Z+32+13, row01
+                 	std  Z+32+14, row02
+                 	std  Z+32+15, row03
+                 	ldd  row00, Y+48+12
+                 	ldd  row01, Y+48+13
+                 	ldd  row02, Y+48+14
+                 	ldd  row03, Y+48+15
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column23_row1
+                 	std  Z+48+ 8, row10
+                 	std  Z+48+ 9, row11
+                 	std  Z+48+10, row12
+                 	std  Z+48+11, row13
+                 	ldd  row10, Y+48+ 8
+                 	ldd  row11, Y+48+ 9
+                 	ldd  row12, Y+48+10
+                 	ldd  row13, Y+48+11
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column23_row2
+                 	std  Z+ 0+ 4, row20
+                 	std  Z+ 0+ 5, row21
+                 	std  Z+ 0+ 6, row22
+                 	std  Z+ 0+ 7, row23
+                 	ldd  row20, Y+48+4
+                 	ldd  row21, Y+48+5
+                 	ldd  row22, Y+48+6
+                 	ldd  row23, Y+48+7
+                 .ENDMACRO
+                 
+                 .MACRO storeload_column23_row3
+                 	std  Z+16+ 0, row30
+                 	std  Z+16+ 1, row31
+                 	std  Z+16+ 2, row32
+                 	std  Z+16+ 3, row33
+                 	ldd  row30, Y+48+0
+                 	ldd  row31, Y+48+1
+                 	ldd  row32, Y+48+2
+                 	ldd  row33, Y+48+3
+                 .ENDMACRO
+                 
+                 .MACRO store_column3_row0
+                 	std  Z+48+12, row00
+                 	std  Z+48+13, row01
+                 	std  Z+48+14, row02
+                 	std  Z+48+15, row03
+                 .ENDMACRO
+                 
+                 .MACRO store_column3_row2
+                 	std  Z+16+ 4, row20
+                 	std  Z+16+ 5, row21
+                 	std  Z+16+ 6, row22
+                 	std  Z+16+ 7, row23
+                 .ENDMACRO
+                 
+                 .MACRO store_column3_row3
+                 	std  Z+32+ 0, row30
+                 	std  Z+32+ 1, row31
+                 	std  Z+32+ 2, row32
+                 	std  Z+32+ 3, row33
+                 .ENDMACRO
+                 
+                 
+                 .MACRO first_roundinstep
+                 	KeyXor_Pre
+                 	columnXor_Sbox
+                 	storeload_column01_row0
+                 	storeload_column01_row1
+                 	storeload_column01_row2
+                 	storeload_column01_row3
+                 
+                 	KeyXor_Pre
+                 	columnXor_Sbox
+                 	storeload_column12_row0
+                 	storeload_column12_row1
+                 	storeload_column12_row2
+                 	storeload_column12_row3
+                 
+                 	KeyRCXor_col2_Pre
+                 	columnXor_Sbox
+                 	storeload_column23_row0
+                 	storeload_column23_row1
+                 	storeload_column23_row2
+                 	storeload_column23_row3
+                 
+                 	KeyRCXor_col3_Pre
+                 	columnXor_Sbox
+                 	store_column3_row0
+                 	store_column3_row2
+                 	store_column3_row3
+                 .ENDMACRO
+                 
+                 middle_roundinstep:
+0000ad 018e
+0000ae 01ef
+0000af 01f8
+0000b0 8038
+0000b1 8079
+0000b2 80ba
+0000b3 80fb
+0000b4 802c
+0000b5 806d
+0000b6 80ae
+0000b7 80ef
+0000b8 840c
+0000b9 844d
+0000ba 848e
+0000bb 84cf      	load_column_forward
+                 
+0000bc 244d
+0000bd 2409
+0000be 24c5
+0000bf 2481
+0000c0 244a
+0000c1 2406
+0000c2 24c2
+0000c3 248e
+0000c4 244b
+0000c5 2407
+0000c6 24c3
+0000c7 248f
+0000c8 240c
+0000c9 24c8
+0000ca 24ce
+0000cb 24cf
+0000cc 245e
+0000cd 241a
+0000ce 24d6
+0000cf 2492
+0000d0 245b
+0000d1 2417
+0000d2 24d3
+0000d3 249f
+0000d4 2450
+0000d5 241c
+0000d6 24d8
+0000d7 2494
+0000d8 241d
+0000d9 24d9
+0000da 24df
+0000db 24d4
+0000dc 246f
+0000dd 242b
+0000de 24e7
+0000df 24a3
+0000e0 2460
+0000e1 242c
+0000e2 24e8
+0000e3 24a4
+0000e4 2461
+0000e5 242d
+0000e6 24e9
+0000e7 24a5
+0000e8 242e
+0000e9 24ea
+0000ea 24e4
+0000eb 24e5
+0000ec 2474
+0000ed 2430
+0000ee 24fc
+0000ef 24b8
+0000f0 2471
+0000f1 243d
+0000f2 24f9
+0000f3 24b5
+0000f4 2472
+0000f5 243e
+0000f6 24fa
+0000f7 24b6
+0000f8 243f
+0000f9 24fb
+0000fa 24f5
+0000fb 24f6
+0000fc df6d      	MixColumn_SboxSwitch
+0000fd 8604
+0000fe 8645
+0000ff 8686
+000100 86c7
+000101 8c0c
+000102 8c4d
+000103 8c8e
+000104 8ccf      	storeload_column01_row0
+000105 8e10
+000106 8e51
+000107 8e92
+000108 8ed3
+000109 8c18
+00010a 8c59
+00010b 8c9a
+00010c 8cdb      	storeload_column01_row1
+00010d a224
+00010e a265
+00010f a2a6
+000110 a2e7
+000111 882c
+000112 886d
+000113 88ae
+000114 88ef      	storeload_column01_row2
+000115 aa30
+000116 aa71
+000117 aab2
+000118 aaf3
+000119 8838
+00011a 8879
+00011b 88ba
+00011c 88fb      	storeload_column01_row3
+                 
+00011d 244d
+00011e 2409
+00011f 24c5
+000120 2481
+000121 244a
+000122 2406
+000123 24c2
+000124 248e
+000125 244b
+000126 2407
+000127 24c3
+000128 248f
+000129 240c
+00012a 24c8
+00012b 24ce
+00012c 24cf
+00012d 245e
+00012e 241a
+00012f 24d6
+000130 2492
+000131 245b
+000132 2417
+000133 24d3
+000134 249f
+000135 2450
+000136 241c
+000137 24d8
+000138 2494
+000139 241d
+00013a 24d9
+00013b 24df
+00013c 24d4
+00013d 246f
+00013e 242b
+00013f 24e7
+000140 24a3
+000141 2460
+000142 242c
+000143 24e8
+000144 24a4
+000145 2461
+000146 242d
+000147 24e9
+000148 24a5
+000149 242e
+00014a 24ea
+00014b 24e4
+00014c 24e5
+00014d 2474
+00014e 2430
+00014f 24fc
+000150 24b8
+000151 2471
+000152 243d
+000153 24f9
+000154 24b5
+000155 2472
+000156 243e
+000157 24fa
+000158 24b6
+000159 243f
+00015a 24fb
+00015b 24f5
+00015c 24f6
+00015d df0c      	MixColumn_SboxSwitch
+00015e 8e04
+00015f 8e45
+000160 8e86
+000161 8ec7
+000162 a40c
+000163 a44d
+000164 a48e
+000165 a4cf      	storeload_column12_row0
+000166 a610
+000167 a651
+000168 a692
+000169 a6d3
+00016a a418
+00016b a459
+00016c a49a
+00016d a4db      	storeload_column12_row1
+00016e aa24
+00016f aa65
+000170 aaa6
+000171 aae7
+000172 a02c
+000173 a06d
+000174 a0ae
+000175 a0ef      	storeload_column12_row2
+000176 8230
+000177 8271
+000178 82b2
+000179 82f3
+00017a a038
+00017b a079
+00017c a0ba
+00017d a0fb      	storeload_column12_row3
+                 
+00017e 244d
+00017f 2409
+000180 24c5
+000181 2481
+000182 244a
+000183 2406
+000184 24c2
+000185 248e
+000186 244b
+000187 2407
+000188 24c3
+000189 248f
+00018a 240c
+00018b 24c8
+00018c 24ce
+00018d 24cf
+00018e 245e
+00018f 241a
+000190 24d6
+000191 2492
+000192 245b
+000193 2417
+000194 24d3
+000195 249f
+000196 2450
+000197 241c
+000198 24d8
+000199 2494
+00019a 241d
+00019b 24d9
+00019c 24df
+00019d 24d4
+00019e 246f
+00019f 242b
+0001a0 24e7
+0001a1 24a3
+0001a2 2460
+0001a3 242c
+0001a4 24e8
+0001a5 24a4
+0001a6 2461
+0001a7 242d
+0001a8 24e9
+0001a9 24a5
+0001aa 242e
+0001ab 24ea
+0001ac 24e4
+0001ad 24e5
+0001ae 2474
+0001af 2430
+0001b0 24fc
+0001b1 24b8
+0001b2 2471
+0001b3 243d
+0001b4 24f9
+0001b5 24b5
+0001b6 2472
+0001b7 243e
+0001b8 24fa
+0001b9 24b6
+0001ba 243f
+0001bb 24fb
+0001bc 24f5
+0001bd 24f6
+0001be 019f
+0001bf 01fb
+0001c0 9105
+0001c1 01bf
+0001c2 01f9
+0001c3 fb05
+0001c4 f416
+0001c5 9400
+0001c6 9420
+0001c7 fb04
+0001c8 f416
+0001c9 94c0
+0001ca 94e0
+0001cb fb03
+0001cc f416
+0001cd 9480
+0001ce 94a0
+0001cf fb02
+0001d0 f416
+0001d1 9410
+0001d2 9430
+0001d3 fb01
+0001d4 f416
+0001d5 94d0
+0001d6 94f0
+0001d7 fb00
+0001d8 f416
+0001d9 9490
+0001da 94b0
+0001db de8e      	MixColumn_RCXor_col2_SboxSwitch
+0001dc a604
+0001dd a645
+0001de a686
+0001df a6c7
+0001e0 ac0c
+0001e1 ac4d
+0001e2 ac8e
+0001e3 accf      	storeload_column23_row0
+0001e4 ae10
+0001e5 ae51
+0001e6 ae92
+0001e7 aed3
+0001e8 ac18
+0001e9 ac59
+0001ea ac9a
+0001eb acdb      	storeload_column23_row1
+0001ec 8224
+0001ed 8265
+0001ee 82a6
+0001ef 82e7
+0001f0 a82c
+0001f1 a86d
+0001f2 a8ae
+0001f3 a8ef      	storeload_column23_row2
+0001f4 8a30
+0001f5 8a71
+0001f6 8ab2
+0001f7 8af3
+0001f8 a838
+0001f9 a879
+0001fa a8ba
+0001fb a8fb      	storeload_column23_row3
+                 
+0001fc 244d
+0001fd 2409
+0001fe 24c5
+0001ff 2481
+000200 244a
+000201 2406
+000202 24c2
+000203 248e
+000204 244b
+000205 2407
+000206 24c3
+000207 248f
+000208 240c
+000209 24c8
+00020a 24ce
+00020b 24cf
+00020c 245e
+00020d 241a
+00020e 24d6
+00020f 2492
+000210 245b
+000211 2417
+000212 24d3
+000213 249f
+000214 2450
+000215 241c
+000216 24d8
+000217 2494
+000218 241d
+000219 24d9
+00021a 24df
+00021b 24d4
+00021c 246f
+00021d 242b
+00021e 24e7
+00021f 24a3
+000220 2460
+000221 242c
+000222 24e8
+000223 24a4
+000224 2461
+000225 242d
+000226 24e9
+000227 24a5
+000228 242e
+000229 24ea
+00022a 24e4
+00022b 24e5
+00022c 2474
+00022d 2430
+00022e 24fc
+00022f 24b8
+000230 2471
+000231 243d
+000232 24f9
+000233 24b5
+000234 2472
+000235 243e
+000236 24fa
+000237 24b6
+000238 243f
+000239 24fb
+00023a 24f5
+00023b 24f6
+00023c 9490
+00023d 94e0
+00023e 94b0
+00023f 94f0
+000240 de29      	MixColumn_RCXor_col3_SboxSwitch
+000241 ae04
+000242 ae45
+000243 ae86
+000244 aec7      	store_column3_row0
+000245 8a24
+000246 8a65
+000247 8aa6
+000248 8ae7      	store_column3_row2
+000249 a230
+00024a a271
+00024b a2b2
+00024c a2f3      	store_column3_row3
+00024d 9508      ret
+                 
+                 .MACRO last_roundinstep
+                 	load_column_forward
+                 #ifdef MixColumnMACRO
+                 	MixColumn
+                 #else
+                 #endif
+                 	store_columnSwitch 0
+                 
+                 	load_column 1
+                 #ifdef MixColumnMACRO
+                 	MixColumn
+                 #else
+                 #endif
+                 	store_columnSwitch 1
+                 
+                 	load_column 2
+                 #ifdef MixColumnMACRO
+                 	MixColumn
+                 #else
+                 #endif
+                 	store_columnSwitch 2
+                 
+                 	load_column 3
+                 #ifdef MixColumnMACRO
+                 	MixColumn
+                 #else
+                 #endif
+                 	store_columnSwitch 3
+                 .ENDMACRO
+                 
+                 .MACRO forward_round
+                 	first_roundinstep
+                 	rcall middle_roundinstep
+                 	rcall middle_roundinstep
+                 	rcall middle_roundinstep
+                 	last_roundinstep
+                 	inc rcnt
+                 .ENDMACRO
+                 
+                 .MACRO Post_KeyXor
+                 	KeyXor_Pre
+                 	rcall columnXor
+                 	store_column 0
+                 
+                 	load_column 1
+                 	KeyXor_Pre
+                 	rcall columnXor
+                 	store_column 1
+                 	
+                 	load_column 2
+                 	KeyXor_Pre
+                 	rcall columnXor
+                 	store_column 2
+                 
+                 	load_column 3
+                 	KeyXor_Pre
+                 	rcall columnXor
+                 	store_column 3
+                 .ENDMACRO
+                 
+                 encrypt:
+00024e e088          ldi rrn, 8
+00024f e0b0          ldi XH, high(SRAM_KTEXT)
+000250 eea0          ldi XL, low(SRAM_KTEXT)
+000251 e0d0      	ldi YH, high(SRAM_PTEXT)
+000252 e6c0      	ldi YL, low(SRAM_PTEXT)
+000253 e07a      	ldi rcZH, high(RC<<1)
+000254 e162      	ldi rcZL, low(RC<<1)
+000255 e0f0      	ldi ZH, high(SRAM_PTEXT_SWAP)
+000256 eae0      	ldi ZL, low(SRAM_PTEXT_SWAP)
+000257 e243      	ldi c0, 0b00100011
+000258 e051      	ldi c1, 0b00000001
+000259 2799      	clr rcnt
+00025a 8038
+00025b 8079
+00025c 80ba
+00025d 80fb
+00025e 802c
+00025f 806d
+000260 80ae
+000261 80ef
+000262 8418
+000263 8459
+000264 849a
+000265 84db
+000266 840c
+000267 844d
+000268 848e
+000269 84cf      	load_column 0
+                 encrypt_start:
+00026a 910d
+00026b 911d
+00026c dd9b
+00026d ddbb
+00026e 8604
+00026f 8645
+000270 8686
+000271 86c7
+000272 8c0c
+000273 8c4d
+000274 8c8e
+000275 8ccf
+000276 8e10
+000277 8e51
+000278 8e92
+000279 8ed3
+00027a 8c18
+00027b 8c59
+00027c 8c9a
+00027d 8cdb
+00027e a224
+00027f a265
+000280 a2a6
+000281 a2e7
+000282 882c
+000283 886d
+000284 88ae
+000285 88ef
+000286 aa30
+000287 aa71
+000288 aab2
+000289 aaf3
+00028a 8838
+00028b 8879
+00028c 88ba
+00028d 88fb
+00028e 910d
+00028f 911d
+000290 dd77
+000291 dd97
+000292 8e04
+000293 8e45
+000294 8e86
+000295 8ec7
+000296 a40c
+000297 a44d
+000298 a48e
+000299 a4cf
+00029a a610
+00029b a651
+00029c a692
+00029d a6d3
+00029e a418
+00029f a459
+0002a0 a49a
+0002a1 a4db
+0002a2 aa24
+0002a3 aa65
+0002a4 aaa6
+0002a5 aae7
+0002a6 a02c
+0002a7 a06d
+0002a8 a0ae
+0002a9 a0ef
+0002aa 8230
+0002ab 8271
+0002ac 82b2
+0002ad 82f3
+0002ae a038
+0002af a079
+0002b0 a0ba
+0002b1 a0fb
+0002b2 018f
+0002b3 01fb
+0002b4 9125
+0002b5 01bf
+0002b6 2f32
+0002b7 7027
+0002b8 0f33
+0002b9 7730
+0002ba 2723
+0002bb 01f8
+0002bc 910d
+0002bd 911d
+0002be 2702
+0002bf 2712
+0002c0 dd47
+0002c1 dd67
+0002c2 a604
+0002c3 a645
+0002c4 a686
+0002c5 a6c7
+0002c6 ac0c
+0002c7 ac4d
+0002c8 ac8e
+0002c9 accf
+0002ca ae10
+0002cb ae51
+0002cc ae92
+0002cd aed3
+0002ce ac18
+0002cf ac59
+0002d0 ac9a
+0002d1 acdb
+0002d2 8224
+0002d3 8265
+0002d4 82a6
+0002d5 82e7
+0002d6 a82c
+0002d7 a86d
+0002d8 a8ae
+0002d9 a8ef
+0002da 8a30
+0002db 8a71
+0002dc 8ab2
+0002dd 8af3
+0002de a838
+0002df a879
+0002e0 a8ba
+0002e1 a8fb
+0002e2 910d
+0002e3 911d
+0002e4 2704
+0002e5 2715
+0002e6 dd21
+0002e7 dd41
+0002e8 ae04
+0002e9 ae45
+0002ea ae86
+0002eb aec7
+0002ec 8a24
+0002ed 8a65
+0002ee 8aa6
+0002ef 8ae7
+0002f0 a230
+0002f1 a271
+0002f2 a2b2
+0002f3 a2f3
+0002f4 ddb8
+0002f5 ddb7
+0002f6 ddb6
+0002f7 018e
+0002f8 01ef
+0002f9 01f8
+0002fa 8038
+0002fb 8079
+0002fc 80ba
+0002fd 80fb
+0002fe 802c
+0002ff 806d
+000300 80ae
+000301 80ef
+000302 840c
+000303 844d
+000304 848e
+000305 84cf
+000306 244d
+000307 2409
+000308 24c5
+000309 2481
+00030a 244a
+00030b 2406
+00030c 24c2
+00030d 248e
+00030e 244b
+00030f 2407
+000310 24c3
+000311 248f
+000312 240c
+000313 24c8
+000314 24ce
+000315 24cf
+000316 245e
+000317 241a
+000318 24d6
+000319 2492
+00031a 245b
+00031b 2417
+00031c 24d3
+00031d 249f
+00031e 2450
+00031f 241c
+000320 24d8
+000321 2494
+000322 241d
+000323 24d9
+000324 24df
+000325 24d4
+000326 246f
+000327 242b
+000328 24e7
+000329 24a3
+00032a 2460
+00032b 242c
+00032c 24e8
+00032d 24a4
+00032e 2461
+00032f 242d
+000330 24e9
+000331 24a5
+000332 242e
+000333 24ea
+000334 24e4
+000335 24e5
+000336 2474
+000337 2430
+000338 24fc
+000339 24b8
+00033a 2471
+00033b 243d
+00033c 24f9
+00033d 24b5
+00033e 2472
+00033f 243e
+000340 24fa
+000341 24b6
+000342 243f
+000343 24fb
+000344 24f5
+000345 24f6
+000346 864f
+000347 860e
+000348 86cd
+000349 868c
+00034a 865b
+00034b 861a
+00034c 86d9
+00034d 8698
+00034e 826f
+00034f 822e
+000350 82ed
+000351 82ac
+000352 827b
+000353 823a
+000354 82f9
+000355 82b8
+000356 8838
+000357 8879
+000358 88ba
+000359 88fb
+00035a 882c
+00035b 886d
+00035c 88ae
+00035d 88ef
+00035e 8c18
+00035f 8c59
+000360 8c9a
+000361 8cdb
+000362 8c0c
+000363 8c4d
+000364 8c8e
+000365 8ccf
+000366 244d
+000367 2409
+000368 24c5
+000369 2481
+00036a 244a
+00036b 2406
+00036c 24c2
+00036d 248e
+00036e 244b
+00036f 2407
+000370 24c3
+000371 248f
+000372 240c
+000373 24c8
+000374 24ce
+000375 24cf
+000376 245e
+000377 241a
+000378 24d6
+000379 2492
+00037a 245b
+00037b 2417
+00037c 24d3
+00037d 249f
+00037e 2450
+00037f 241c
+000380 24d8
+000381 2494
+000382 241d
+000383 24d9
+000384 24df
+000385 24d4
+000386 246f
+000387 242b
+000388 24e7
+000389 24a3
+00038a 2460
+00038b 242c
+00038c 24e8
+00038d 24a4
+00038e 2461
+00038f 242d
+000390 24e9
+000391 24a5
+000392 242e
+000393 24ea
+000394 24e4
+000395 24e5
+000396 2474
+000397 2430
+000398 24fc
+000399 24b8
+00039a 2471
+00039b 243d
+00039c 24f9
+00039d 24b5
+00039e 2472
+00039f 243e
+0003a0 24fa
+0003a1 24b6
+0003a2 243f
+0003a3 24fb
+0003a4 24f5
+0003a5 24f6
+0003a6 8e4f
+0003a7 8e0e
+0003a8 8ecd
+0003a9 8e8c
+0003aa 8e5b
+0003ab 8e1a
+0003ac 8ed9
+0003ad 8e98
+0003ae 8a6f
+0003af 8a2e
+0003b0 8aed
+0003b1 8aac
+0003b2 8a7b
+0003b3 8a3a
+0003b4 8af9
+0003b5 8ab8
+0003b6 a038
+0003b7 a079
+0003b8 a0ba
+0003b9 a0fb
+0003ba a02c
+0003bb a06d
+0003bc a0ae
+0003bd a0ef
+0003be a418
+0003bf a459
+0003c0 a49a
+0003c1 a4db
+0003c2 a40c
+0003c3 a44d
+0003c4 a48e
+0003c5 a4cf
+0003c6 244d
+0003c7 2409
+0003c8 24c5
+0003c9 2481
+0003ca 244a
+0003cb 2406
+0003cc 24c2
+0003cd 248e
+0003ce 244b
+0003cf 2407
+0003d0 24c3
+0003d1 248f
+0003d2 240c
+0003d3 24c8
+0003d4 24ce
+0003d5 24cf
+0003d6 245e
+0003d7 241a
+0003d8 24d6
+0003d9 2492
+0003da 245b
+0003db 2417
+0003dc 24d3
+0003dd 249f
+0003de 2450
+0003df 241c
+0003e0 24d8
+0003e1 2494
+0003e2 241d
+0003e3 24d9
+0003e4 24df
+0003e5 24d4
+0003e6 246f
+0003e7 242b
+0003e8 24e7
+0003e9 24a3
+0003ea 2460
+0003eb 242c
+0003ec 24e8
+0003ed 24a4
+0003ee 2461
+0003ef 242d
+0003f0 24e9
+0003f1 24a5
+0003f2 242e
+0003f3 24ea
+0003f4 24e4
+0003f5 24e5
+0003f6 2474
+0003f7 2430
+0003f8 24fc
+0003f9 24b8
+0003fa 2471
+0003fb 243d
+0003fc 24f9
+0003fd 24b5
+0003fe 2472
+0003ff 243e
+000400 24fa
+000401 24b6
+000402 243f
+000403 24fb
+000404 24f5
+000405 24f6
+000406 a64f
+000407 a60e
+000408 a6cd
+000409 a68c
+00040a a65b
+00040b a61a
+00040c a6d9
+00040d a698
+00040e a26f
+00040f a22e
+000410 a2ed
+000411 a2ac
+000412 a27b
+000413 a23a
+000414 a2f9
+000415 a2b8
+000416 a838
+000417 a879
+000418 a8ba
+000419 a8fb
+00041a a82c
+00041b a86d
+00041c a8ae
+00041d a8ef
+00041e ac18
+00041f ac59
+000420 ac9a
+000421 acdb
+000422 ac0c
+000423 ac4d
+000424 ac8e
+000425 accf
+000426 244d
+000427 2409
+000428 24c5
+000429 2481
+00042a 244a
+00042b 2406
+00042c 24c2
+00042d 248e
+00042e 244b
+00042f 2407
+000430 24c3
+000431 248f
+000432 240c
+000433 24c8
+000434 24ce
+000435 24cf
+000436 245e
+000437 241a
+000438 24d6
+000439 2492
+00043a 245b
+00043b 2417
+00043c 24d3
+00043d 249f
+00043e 2450
+00043f 241c
+000440 24d8
+000441 2494
+000442 241d
+000443 24d9
+000444 24df
+000445 24d4
+000446 246f
+000447 242b
+000448 24e7
+000449 24a3
+00044a 2460
+00044b 242c
+00044c 24e8
+00044d 24a4
+00044e 2461
+00044f 242d
+000450 24e9
+000451 24a5
+000452 242e
+000453 24ea
+000454 24e4
+000455 24e5
+000456 2474
+000457 2430
+000458 24fc
+000459 24b8
+00045a 2471
+00045b 243d
+00045c 24f9
+00045d 24b5
+00045e 2472
+00045f 243e
+000460 24fa
+000461 24b6
+000462 243f
+000463 24fb
+000464 24f5
+000465 24f6
+000466 ae4f
+000467 ae0e
+000468 aecd
+000469 ae8c
+00046a ae5b
+00046b ae1a
+00046c aed9
+00046d ae98
+00046e aa6f
+00046f aa2e
+000470 aaed
+000471 aaac
+000472 aa7b
+000473 aa3a
+000474 aaf9
+000475 aab8
+000476 9593          forward_round
+000477 8038
+000478 8079
+000479 80ba
+00047a 80fb
+00047b 802c
+00047c 806d
+00047d 80ae
+00047e 80ef
+00047f 8418
+000480 8459
+000481 849a
+000482 84db
+000483 840c
+000484 844d
+000485 848e
+000486 84cf      	load_column 0
+000487 e0b0      	ldi XH, high(SRAM_KTEXT)
+000488 eea0          ldi XL, low(SRAM_KTEXT)
+000489 3098      	cpi rcnt, 8
+00048a f009      	breq encrypt_end
+00048b cdde      	rjmp encrypt_start
+                 encrypt_end:
+00048c 910d
+00048d 911d
+00048e db79
+00048f 86cf
+000490 868e
+000491 864d
+000492 860c
+000493 86db
+000494 869a
+000495 8659
+000496 8618
+000497 82ef
+000498 82ae
+000499 826d
+00049a 822c
+00049b 82fb
+00049c 82ba
+00049d 8279
+00049e 8238
+00049f 8838
+0004a0 8879
+0004a1 88ba
+0004a2 88fb
+0004a3 882c
+0004a4 886d
+0004a5 88ae
+0004a6 88ef
+0004a7 8c18
+0004a8 8c59
+0004a9 8c9a
+0004aa 8cdb
+0004ab 8c0c
+0004ac 8c4d
+0004ad 8c8e
+0004ae 8ccf
+0004af 910d
+0004b0 911d
+0004b1 db56
+0004b2 8ecf
+0004b3 8e8e
+0004b4 8e4d
+0004b5 8e0c
+0004b6 8edb
+0004b7 8e9a
+0004b8 8e59
+0004b9 8e18
+0004ba 8aef
+0004bb 8aae
+0004bc 8a6d
+0004bd 8a2c
+0004be 8afb
+0004bf 8aba
+0004c0 8a79
+0004c1 8a38
+0004c2 a038
+0004c3 a079
+0004c4 a0ba
+0004c5 a0fb
+0004c6 a02c
+0004c7 a06d
+0004c8 a0ae
+0004c9 a0ef
+0004ca a418
+0004cb a459
+0004cc a49a
+0004cd a4db
+0004ce a40c
+0004cf a44d
+0004d0 a48e
+0004d1 a4cf
+0004d2 910d
+0004d3 911d
+0004d4 db33
+0004d5 a6cf
+0004d6 a68e
+0004d7 a64d
+0004d8 a60c
+0004d9 a6db
+0004da a69a
+0004db a659
+0004dc a618
+0004dd a2ef
+0004de a2ae
+0004df a26d
+0004e0 a22c
+0004e1 a2fb
+0004e2 a2ba
+0004e3 a279
+0004e4 a238
+0004e5 a838
+0004e6 a879
+0004e7 a8ba
+0004e8 a8fb
+0004e9 a82c
+0004ea a86d
+0004eb a8ae
+0004ec a8ef
+0004ed ac18
+0004ee ac59
+0004ef ac9a
+0004f0 acdb
+0004f1 ac0c
+0004f2 ac4d
+0004f3 ac8e
+0004f4 accf
+0004f5 910d
+0004f6 911d
+0004f7 db10
+0004f8 aecf
+0004f9 ae8e
+0004fa ae4d
+0004fb ae0c
+0004fc aedb
+0004fd ae9a
+0004fe ae59
+0004ff ae18
+000500 aaef
+000501 aaae
+000502 aa6d
+000503 aa2c
+000504 aafb
+000505 aaba
+000506 aa79
+000507 aa38      	Post_KeyXor
+000508 9508      ret
+                 
+                 RC:
+                 ; 1-24
+000509 0301
+00050a 0f07
+00050b 3e1f
+00050c 3b3d
+00050d 2f37
+00050e 3c1e
+00050f 3339
+000510 0e27
+000511 3a1d
+000512 2b35
+000513 2c16
+000514 3018      .db 0x01,0x03,0x07,0x0F,0x1F,0x3E,0x3D,0x3B,0x37,0x2F,0x1E,0x3C,0x39,0x33,0x27,0x0E,0x1D,0x3A,0x35,0x2B,0x16,0x2C,0x18,0x30
+                 ; 25-48
+000515 0221
+000516 0b05
+000517 2e17
+000518 381c      .db 0x21,0x02,0x05,0x0B,0x17,0x2E,0x1C,0x38;,0x31,0x23,0x06,0x0D,0x1B,0x36,0x2D,0x1A,0x34,0x29,0x12,0x24,0x08,0x11,0x22,0x04
+                 
+                 #elif desxl
+                 #elif hight
+                 #elif idea
+                 #elif kasumi
+                 #elif katan
+                 #elif klein
+                 #elif mcrypton
+                 #elif noekeon
+                 #elif present
+                 #elif sea
+                 #elif tea
+                 #else
+                 #endif
+                 
+                 
+                 .CSEG
+                 
+                 ;******************** FUNCTIONS ***********************************
+                 ; This function copy bytes from ROM location pointed by ZH:ZL to
+                 ; SRAM location pointed by XH:XL
+                 ;	Z must contain source address
+                 ;	X must contain destination address
+                 ;	r18 must contain the number of byte to copy
+                 ;	r16 is used for internal computation
+                 copy_word:
+000519 9105      	lpm		r16, Z+
+00051a 930d      	st 		X+,r16
+00051b 952a      	dec		r18
+00051c f7e1      	brbc	1, copy_word
+00051d 9508      	ret
+                 ;*******************************************************************
+                 
+                 ;******************** Q ELEC FUNCTIONS (START) *********************
+                 ; wait : ret + 0xFF * (5*nop + 1*dec + 1*brbc)
+                 wait:
+00051e ef0f      	ldi		r16, 0xFF	;r16=FF
+                 w_loop:
+00051f 0000      	nop
+000520 0000      	nop
+000521 0000      	nop
+000522 0000      	nop
+000523 0000      	nop
+000524 950a      	dec		r16			; r16=r16-1
+000525 f7c9      	brbc	1,w_loop	; branch sur loop si Z=0, c¨¤s si r16 != 0
+000526 9508      	ret					; return from subroutine
+                 
+                 
+                 
+                 ; wait2 : r17 * wait (to be set inside) + some instructions
+                 wait2:
+000527 ef1f      	ldi		r17, 0xFF	;
+                 w_loop2:
+000528 dff5      	rcall	wait
+000529 951a      	dec		r17			; r17=r17-1
+00052a f7e9      	brbc	1,w_loop2	; branch sur loop2 si Z=0, c¨¤s si r17 != 0
+00052b 9508      	ret					; return from subroutine
+                 ;******************** Q ELEC FUNCTIONS (END) *********************
+                 
+                 
+                 ;******************** MAIN (START) *******************************
+                 main:
+                 	;LOAD THE PTEXT FROM THE DB BELOW TO SRAM
+00052c e0fa      	ldi		ZH, high(text<<1)
+00052d ede4      	ldi		ZL, low(text<<1)
+00052e e0b0      	ldi 	XH, high(SRAM_PTEXT)
+00052f e6a0      	ldi 	XL, low(SRAM_PTEXT)
+000530 e420      	ldi		r18, PTEXT_NUM_BYTE
+000531 dfe7      	rcall	copy_word
+                 
+                 main_loop:
+                 
+                 	;LOAD THE KEY FROM THE DB BELOW TO SRAM
+000532 e0fa      	ldi		ZH, high(key<<1)
+000533 edec      	ldi		ZL, low(key<<1)
+000534 e0b0      	ldi 	XH, high(SRAM_KTEXT)
+000535 eea0      	ldi 	XL, low(SRAM_KTEXT)
+000536 e028      	ldi		r18, KEY_NUM_BYTE
+000537 dfe1      	rcall	copy_word
+                 
+                 	; Initialize XH:XL with start address of ptext/key memory location
+000538 e0b0      	ldi 	XH, high(SRAM_PTEXT)
+000539 e6a0      	ldi 	XL, low(SRAM_PTEXT)
+00053a 9ac1      	sbi		PORTB,1		; portA,0 = high (trigger on port A0)
+00053b 0000      	nop
+00053c 0000      	nop
+00053d 0000      	nop
+00053e 0000      	nop
+00053f 98c1       	cbi		PORTB,1		; portA,0 = low
+000540 0000      	nop
+000541 0000      	nop
+000542 0000      	nop
+                 
+                 #ifdef KEYSCHEDULE
+                 #endif
+000543 0000      	nop
+000544 0000      	nop
+000545 0000      	nop
+000546 0000      	nop
+000547 0000      	nop
+000548 0000      	nop
+000549 0000      	nop
+00054a 0000      	nop
+00054b 0000      	nop
+00054c 0000      	nop
+                 
+00054d dd00      	rcall	encrypt		; encryption routine
+                 	
+                 		
+00054e 0000      	nop
+00054f 0000      	nop
+000550 0000      	nop
+000551 0000      	nop
+000552 0000      	nop
+000553 0000      	nop
+000554 0000      	nop
+000555 0000      	nop
+000556 0000      	nop
+000557 0000      	nop
+                 
+                 #ifdef DECRYPT
+                 #endif
+                 
+000558 0000      	nop
+000559 0000      	nop
+00055a 0000      	nop
+00055b 0000      	nop
+00055c 0000      	nop
+00055d 0000      	nop
+00055e 0000      	nop
+00055f 0000      	nop
+000560 0000      	nop
+000561 0000      	nop
+                 
+000562 9ac0      	sbi		PORTB,0		; portA,0 = high (trigger on port A0)
+000563 0000      	nop
+000564 0000      	nop
+000565 0000      	nop
+000566 0000      	nop
+000567 98c0       	cbi		PORTB,0		; portA,0 = low
+                 
+                 
+                 	;make a pause
+000568 dfbe      	rcall	wait2
+000569 dfbd      	rcall	wait2
+                 ;	rcall	wait2
+                 ;	rcall	wait2
+                 ;	rcall	wait2
+                 
+                 	;encrypt again, with the cipher as the new plain
+                 	;rjmp	main_loop
+                 
+                 	;to decrypt:
+                 	;ldi 	XH, high(SRAM_DATA)
+                 	;ldi 	XL, low(SRAM_DATA)
+                 	;rcall decrypt		; call decryption routine
+                 
+                 	;rjmp	main	;let's have fun one more time
+                 
+                 ;text:
+                 ;.db $32,$43,$f6,$a8,$88,$5a,$30,$8d,$31,$31,$98,$a2,$e0,$37,$07,$34
+                 ;key:
+                 ;.db $2b,$7e,$15,$16,$28,$ae,$d2,$a6,$ab,$f7,$15,$88,$09,$cf,$4f,$3c,$51,$a4,$6b,$8d,$31,$1f,$f4,$37
+                 
+                 ;text:
+                 ;.db $ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff
+                 ;key:
+                 ;.db $00,$00,$00,$00,$00,$00,$00,$00,$00,$00
+                 
+                 text:
+                 ;.db $ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff
+00056a 0000
+00056b 0000
+00056c 0000
+00056d 0000      .db $00,$00,$00,$00,$00,$00,$00,$00
+                 key:
+00056e 0000
+00056f 0000
+000570 0000
+000571 0000      .db $00,$00,$00,$00,$00,$00,$00,$00;,$00,$00,$00,$00,$00,$00,$00,$00
+                 ;key:
+                 ;.db $FE, $DC, $BA, $98, $76, $54, $32, $10, $83, $77, $AB, $69, $5D, $EE, $FC, $01
+                 
+                 ;text:
+                 ;.db $7f,$f5,$fc,$04,$a5,$bc,$9e,$0a
+                 ;key:
+                 ;.db $ea,$85,$be,$fc,$86,$c6,$f1,$47,$c7,$ff,$7d,$7b,$88,$20,$83,$02
+                 ;
+                 ;b4db77b7e2560859
+                 ;.db $ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff
+                 ;ce 4d 0d b1 21 01 fb f7 0f 40 10 00
+                 ;text:
+                 ;.db $59,$08,$56,$e2,$b7,$77,$db,$b4
+                 ;key:
+                 ;.db $ce,$4d,$1d,$1b,$12,$fb,$f7,$0f,$04,$01
+                 
+                 
+                 .DSEG
+                 ;.ORG 0x60
+000060             SRAM_PTEXT: .BYTE PTEXT_NUM_BYTE
+0000a0             SRAM_PTEXT_SWAP: .BYTE PTEXT_NUM_BYTE_SWAP
+0000e0             SRAM_KTEXT: .BYTE KEY_NUM_BYTE
+                 
+                 
+                 ;******************** MAIN (END) *********************************
+                 
+                 
+
+
+RESOURCE USE INFORMATION
+------------------------
+
+Notice:
+The register and instruction counts are symbol table hit counts,
+and hence implicitly used resources are not counted, eg, the
+'lpm' instruction without operands implicitly uses r0 and z,
+none of which are counted.
+
+x,y,z are separate entities in the symbol table and are
+counted separately from r26..r31 here.
+
+.dseg memory usage only counts static data declared with .byte
+
+"ATtiny45" register use summary:
+r0 : 106 r1 : 100 r2 :  94 r3 :  94 r4 : 114 r5 : 108 r6 :  96 r7 :  88 
+r8 : 110 r9 : 101 r10:  96 r11:  95 r12: 145 r13: 132 r14: 132 r15: 137 
+r16:  59 r17:  36 r18:  23 r19:  10 r20:   2 r21:   2 r22:   5 r23:   1 
+r24:   1 r25:   3 r26:   5 r27:   5 r28:   1 r29:   1 r30:  11 r31:   7 
+x  :  17 y  : 380 z  : 127 
+Registers used: 35 out of 35 (100.0%)
+
+"ATtiny45" instruction use summary:
+.lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :  16 
+andi  :   2 asr   :   0 bclr  :   0 bld   :   0 brbc  :   3 brbs  :   0 
+brcc  :   0 brcs  :   0 break :   0 breq  :   1 brge  :   0 brhc  :   0 
+brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
+brne  :   0 brpl  :   0 brsh  :   0 brtc  :   6 brts  :   0 brvc  :   0 
+brvs  :   0 bset  :   0 bst   :   6 cbi   :   2 cbr   :   0 clc   :   0 
+clh   :   0 cli   :   1 cln   :   0 clr   :   1 cls   :   0 clt   :   0 
+clv   :   0 clz   :   0 com   :  40 cp    :   0 cpc   :   0 cpi   :   1 
+cpse  :   0 dec   :   3 eor   : 589 icall :   0 ijmp  :   0 in    :   0 
+inc   :   1 ld    :  16 ldd   : 248 ldi   :  30 lds   :   0 lpm   :   3 
+lsl   :   1 lsr   :   0 mov   :   1 movw  :  32 neg   :   0 nop   :  46 
+or    :  16 ori   :   0 out   :   3 pop   :   0 push  :   0 rcall :  25 
+ret   :   8 reti  :   0 rjmp  :   2 rol   :   0 ror   :   0 sbc   :   0 
+sbci  :   0 sbi   :   2 sbic  :   0 sbis  :   0 sbiw  :   0 sbr   :   0 
+sbrc  :  16 sbrs  :   0 sec   :   0 seh   :   0 sei   :   0 sen   :   0 
+ser   :   0 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 
+spm   :   0 st    :   1 std   : 248 sts   :   0 sub   :   0 subi  :   0 
+swap  :   0 tst   :   0 wdr   :   0 
+Instructions used: 31 out of 105 (29.5%)
+
+"ATtiny45" memory use summary [bytes]:
+Segment   Begin    End      Code   Data   Used    Size   Use%
+---------------------------------------------------------------
+[.cseg] 0x000000 0x000ae4   2740     48   2788    4096  68.1%
+[.dseg] 0x000060 0x0000e8      0    136    136     256  53.1%
+[.eseg] 0x000000 0x000000      0      0      0     256   0.0%
+
+Assembly complete, 0 errors, 14 warnings

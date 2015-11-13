@@ -1,0 +1,56 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\Debug/AssemblerApplication1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication1.map</FILE>
+  <FILE>AssemblerApplication1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>125</LINE></main>
+  <SRAM_PTEXT><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>242</LINE></SRAM_PTEXT>
+  <encrypt><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>55</LINE></encrypt>
+  <encrypt_start><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>58</LINE></encrypt_start>
+  <SRAM_KEY><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>243</LINE></SRAM_KEY>
+  <load_key><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>197</LINE></load_key>
+  <load_state><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>235</LINE></load_state>
+  <add_round_key><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>266</LINE></add_round_key>
+  <store_state><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>252</LINE></store_state>
+  <key_schedule><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>280</LINE></key_schedule>
+  <store_key><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>215</LINE></store_key>
+  <subcolumn><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>787</LINE></subcolumn>
+  <shiftrow><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>846</LINE></shiftrow>
+  <decrypt><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>118</LINE></decrypt>
+  <key_expansion><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>125</LINE></key_expansion>
+  <inverse_rounds><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>156</LINE></inverse_rounds>
+  <inverse_shiftrow><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>909</LINE></inverse_shiftrow>
+  <inverse_subcolumn><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>815</LINE></inverse_subcolumn>
+  <reverse_round_key><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>539</LINE></reverse_round_key>
+  <sbox><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>980</LINE></sbox>
+  <RC><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>1019</LINE></RC>
+  <inv_sbox><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\./Rectangle80.asm</FILE><LINE>1001</LINE></inv_sbox>
+  <copy_word><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>89</LINE></copy_word>
+  <wait><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>99</LINE></wait>
+  <w_loop><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>101</LINE></w_loop>
+  <wait2><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>114</LINE></wait2>
+  <w_loop2><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>116</LINE></w_loop2>
+  <text><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>224</LINE></text>
+  <main_loop><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>134</LINE></main_loop>
+  <key><FILE>D:\study\myasmtest\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>226</LINE></key>
+ </LABELS>
+</ASSEMBLER_INFO>

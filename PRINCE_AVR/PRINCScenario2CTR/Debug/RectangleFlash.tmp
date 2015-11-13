@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\Rectangle80Flash.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\Debug/RectangleFlash.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>RectangleFlash.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>RectangleFlash.map</FILE>
+  <FILE>RectangleFlash.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</FILE><LINE>125</LINE></main>
+  <decrypt><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\Rectangle80Flash.asm</FILE><LINE>326</LINE></decrypt>
+  <SRAM_PTEXT><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</FILE><LINE>257</LINE></SRAM_PTEXT>
+  <iRK><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\Rectangle80Flash.asm</FILE><LINE>345</LINE></iRK>
+  <decrypt_start><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\Rectangle80Flash.asm</FILE><LINE>335</LINE></decrypt_start>
+  <copy_word><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</FILE><LINE>89</LINE></copy_word>
+  <wait><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</FILE><LINE>99</LINE></wait>
+  <w_loop><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</FILE><LINE>101</LINE></w_loop>
+  <wait2><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</FILE><LINE>114</LINE></wait2>
+  <w_loop2><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</FILE><LINE>116</LINE></w_loop2>
+  <main_loop><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</FILE><LINE>134</LINE></main_loop>
+  <text><FILE>E:\Seagate\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR_NewKS_SRA\RectangleFlash\interface.asm</FILE><LINE>236</LINE></text>
+ </LABELS>
+</ASSEMBLER_INFO>

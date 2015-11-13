@@ -1,0 +1,46 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>K:\Seagate\LED\LED_AVR\LEDFlashRC\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\Debug/LEDFlashRC.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LEDFlashRC.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LEDFlashRC.map</FILE>
+  <FILE>LEDFlashRC.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>125</LINE></main>
+  <columnXor><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm</FILE><LINE>141</LINE></columnXor>
+  <Sbox><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm</FILE><LINE>179</LINE></Sbox>
+  <SboxSwitch><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm</FILE><LINE>256</LINE></SboxSwitch>
+  <middle_roundinstep><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm</FILE><LINE>724</LINE></middle_roundinstep>
+  <encrypt><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm</FILE><LINE>815</LINE></encrypt>
+  <SRAM_KTEXT><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>280</LINE></SRAM_KTEXT>
+  <SRAM_PTEXT><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>278</LINE></SRAM_PTEXT>
+  <RC><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm</FILE><LINE>841</LINE></RC>
+  <SRAM_PTEXT_SWAP><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>279</LINE></SRAM_PTEXT_SWAP>
+  <encrypt_start><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm</FILE><LINE>829</LINE></encrypt_start>
+  <encrypt_end><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\./LED64FlashRCSmallFlash.asm</FILE><LINE>837</LINE></encrypt_end>
+  <copy_word><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>89</LINE></copy_word>
+  <wait><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>99</LINE></wait>
+  <w_loop><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>101</LINE></w_loop>
+  <wait2><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>114</LINE></wait2>
+  <w_loop2><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>116</LINE></w_loop2>
+  <text><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>254</LINE></text>
+  <main_loop><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>134</LINE></main_loop>
+  <key><FILE>K:\Seagate\LED\LED_AVR\LEDFlashRC\interface.asm</FILE><LINE>257</LINE></key>
+ </LABELS>
+</ASSEMBLER_INFO>

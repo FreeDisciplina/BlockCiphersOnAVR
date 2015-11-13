@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\Debug/Rectangle.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Rectangle.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Rectangle.map</FILE>
+  <FILE>Rectangle.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>125</LINE></main>
+  <SRAM_PTEXT><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>242</LINE></SRAM_PTEXT>
+  <forward_key_update><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>463</LINE></forward_key_update>
+  <Sbox><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>805</LINE></Sbox>
+  <RC><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>811</LINE></RC>
+  <invert_key_update><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>474</LINE></invert_key_update>
+  <ISbox><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>808</LINE></ISbox>
+  <forward_round><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>688</LINE></forward_round>
+  <invert_round><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>701</LINE></invert_round>
+  <encrypt><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>714</LINE></encrypt>
+  <SRAM_KEY><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>243</LINE></SRAM_KEY>
+  <encrypt_start><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>722</LINE></encrypt_start>
+  <decrypt><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>759</LINE></decrypt>
+  <decrypt_start><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\./Rectangle128OnTheFly.asm</FILE><LINE>767</LINE></decrypt_start>
+  <copy_word><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>89</LINE></copy_word>
+  <wait><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>99</LINE></wait>
+  <w_loop><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>101</LINE></w_loop>
+  <wait2><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>114</LINE></wait2>
+  <w_loop2><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>116</LINE></w_loop2>
+  <text><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>224</LINE></text>
+  <main_loop><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>134</LINE></main_loop>
+  <key><FILE>F:\My Documents\1. Research\Design\Implementation\AVR asm tutorial\Rectangle_AVR\Rectangle_AVR\AssemblerApplication1\AssemblerApplication1\interface.asm</FILE><LINE>226</LINE></key>
+ </LABELS>
+</ASSEMBLER_INFO>

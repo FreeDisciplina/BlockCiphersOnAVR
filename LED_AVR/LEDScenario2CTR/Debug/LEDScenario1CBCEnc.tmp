@@ -1,0 +1,49 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\./LEDScenario1CBCEnc.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\Debug/LEDScenario1CBCEnc.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LEDScenario1CBCEnc.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LEDScenario1CBCEnc.map</FILE>
+  <FILE>LEDScenario1CBCEnc.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>67</LINE></main>
+  <keySchedule><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\./LEDScenario1CBCEnc.asm</FILE><LINE>312</LINE></keySchedule>
+  <SRAM_KTEXT1><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>217</LINE></SRAM_KTEXT1>
+  <SRAM_KTEXT2><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>218</LINE></SRAM_KTEXT2>
+  <RoundFunction><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\./LEDScenario1CBCEnc.asm</FILE><LINE>865</LINE></RoundFunction>
+  <Step1><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\./LEDScenario1CBCEnc.asm</FILE><LINE>872</LINE></Step1>
+  <Step2><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\./LEDScenario1CBCEnc.asm</FILE><LINE>880</LINE></Step2>
+  <encrypt><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\./LEDScenario1CBCEnc.asm</FILE><LINE>889</LINE></encrypt>
+  <RC><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\./LEDScenario1CBCEnc.asm</FILE><LINE>932</LINE></RC>
+  <SRAM_KTEXTR><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>221</LINE></SRAM_KTEXTR>
+  <SRAM_INITV><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>219</LINE></SRAM_INITV>
+  <CBC16_encrypt_start><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\./LEDScenario1CBCEnc.asm</FILE><LINE>898</LINE></CBC16_encrypt_start>
+  <CBC16_encrypt_end><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\./LEDScenario1CBCEnc.asm</FILE><LINE>928</LINE></CBC16_encrypt_end>
+  <copy_word><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>32</LINE></copy_word>
+  <wait><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>42</LINE></wait>
+  <w_loop><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>44</LINE></w_loop>
+  <wait2><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>56</LINE></wait2>
+  <w_loop2><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>58</LINE></w_loop2>
+  <init><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>193</LINE></init>
+  <text><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>195</LINE></text>
+  <SRAM_PTEXT><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>220</LINE></SRAM_PTEXT>
+  <main_loop><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>84</LINE></main_loop>
+  <key><FILE>K:\Seagate\LED\LED_AVR\LEDScenario1CBCEnc\interface.asm</FILE><LINE>212</LINE></key>
+ </LABELS>
+</ASSEMBLER_INFO>

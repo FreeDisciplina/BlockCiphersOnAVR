@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\./LEDScenario2CTR.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\Debug/LEDScenario2CTR.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LEDScenario2CTR.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LEDScenario2CTR.map</FILE>
+  <FILE>LEDScenario2CTR.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>67</LINE></main>
+  <ReorderInputSwitch><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\./LEDScenario2CTR.asm</FILE><LINE>201</LINE></ReorderInputSwitch>
+  <ReorderOutputSwitch><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\./LEDScenario2CTR.asm</FILE><LINE>224</LINE></ReorderOutputSwitch>
+  <RoundFunction><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\./LEDScenario2CTR.asm</FILE><LINE>786</LINE></RoundFunction>
+  <encrypt><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\./LEDScenario2CTR.asm</FILE><LINE>839</LINE></encrypt>
+  <SRAM_INITV><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>140</LINE></SRAM_INITV>
+  <RC><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\./LEDScenario2CTR.asm</FILE><LINE>878</LINE></RC>
+  <loop_start><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\./LEDScenario2CTR.asm</FILE><LINE>859</LINE></loop_start>
+  <key><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>134</LINE></key>
+  <copy_word><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>32</LINE></copy_word>
+  <wait><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>42</LINE></wait>
+  <w_loop><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>44</LINE></w_loop>
+  <wait2><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>56</LINE></wait2>
+  <w_loop2><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>58</LINE></w_loop2>
+  <init><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>129</LINE></init>
+  <text><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>131</LINE></text>
+  <SRAM_PTEXT><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>141</LINE></SRAM_PTEXT>
+  <main_loop><FILE>E:\Seagate\AVRwriting\Programs\LED_AVR\LEDScenario2CTR\interface.asm</FILE><LINE>84</LINE></main_loop>
+ </LABELS>
+</ASSEMBLER_INFO>

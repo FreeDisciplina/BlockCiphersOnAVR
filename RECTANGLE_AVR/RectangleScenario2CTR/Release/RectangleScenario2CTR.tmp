@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\Release</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m128def.inc</FILE>
+  <FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\Rectangle128FlashLowF.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\Release/RectangleScenario2CTR.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>RectangleScenario2CTR.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>RectangleScenario2CTR.map</FILE>
+  <FILE>RectangleScenario2CTR.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</FILE><LINE>53</LINE></main>
+  <encrypt><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\Rectangle128FlashLowF.asm</FILE><LINE>185</LINE></encrypt>
+  <SRAM_COUNT><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</FILE><LINE>120</LINE></SRAM_COUNT>
+  <SRAM_PTEXT><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</FILE><LINE>121</LINE></SRAM_PTEXT>
+  <blocks><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\Rectangle128FlashLowF.asm</FILE><LINE>213</LINE></blocks>
+  <RK><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\Rectangle128FlashLowF.asm</FILE><LINE>236</LINE></RK>
+  <encrypt_start><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\Rectangle128FlashLowF.asm</FILE><LINE>217</LINE></encrypt_start>
+  <encrypt_end><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\Rectangle128FlashLowF.asm</FILE><LINE>232</LINE></encrypt_end>
+  <wait><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</FILE><LINE>27</LINE></wait>
+  <w_loop><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</FILE><LINE>29</LINE></w_loop>
+  <wait2><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</FILE><LINE>42</LINE></wait2>
+  <w_loop2><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</FILE><LINE>44</LINE></w_loop2>
+  <COUNTER_LOOP><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</FILE><LINE>57</LINE></COUNTER_LOOP>
+  <PTEXT_LOOP><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleScenario2CTR\interface.asm</FILE><LINE>65</LINE></PTEXT_LOOP>
+ </LABELS>
+</ASSEMBLER_INFO>

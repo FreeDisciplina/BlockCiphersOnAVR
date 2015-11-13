@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "RectangleScenario1CBC", "RectangleScenario1CBC\RectangleScenario1CBC.asmproj", "{CB1F3793-DC29-4B83-AA3C-A775993482D7}"
+EndProject
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "RectangleScenario2CTR", "RectangleScenario2CTR\RectangleScenario2CTR.asmproj", "{39541EA1-77E7-4A7C-B83A-B2C1126D2A9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB1F3793-DC29-4B83-AA3C-A775993482D7}.Debug|AVR.ActiveCfg = Debug|AVR
+		{CB1F3793-DC29-4B83-AA3C-A775993482D7}.Debug|AVR.Build.0 = Debug|AVR
+		{CB1F3793-DC29-4B83-AA3C-A775993482D7}.Release|AVR.ActiveCfg = Release|AVR
+		{CB1F3793-DC29-4B83-AA3C-A775993482D7}.Release|AVR.Build.0 = Release|AVR
+		{39541EA1-77E7-4A7C-B83A-B2C1126D2A9D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{39541EA1-77E7-4A7C-B83A-B2C1126D2A9D}.Debug|AVR.Build.0 = Debug|AVR
+		{39541EA1-77E7-4A7C-B83A-B2C1126D2A9D}.Release|AVR.ActiveCfg = Release|AVR
+		{39541EA1-77E7-4A7C-B83A-B2C1126D2A9D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

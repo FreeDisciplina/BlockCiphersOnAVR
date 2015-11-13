@@ -1,0 +1,42 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny45"</DEVICE>
+ <WORKING_DIR>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn45def.inc</FILE>
+  <FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\Rectangle128FlashLowF.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\Debug/RectangleFlash.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>RectangleFlash.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>RectangleFlash.map</FILE>
+  <FILE>RectangleFlash.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>68</LINE></main>
+  <forward_round><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\Rectangle128FlashLowF.asm</FILE><LINE>106</LINE></forward_round>
+  <encrypt><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\Rectangle128FlashLowF.asm</FILE><LINE>184</LINE></encrypt>
+  <SRAM_INITV><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>147</LINE></SRAM_INITV>
+  <SRAM_PTEXT><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>148</LINE></SRAM_PTEXT>
+  <RK><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\Rectangle128FlashLowF.asm</FILE><LINE>241</LINE></RK>
+  <encrypt_block0><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\Rectangle128FlashLowF.asm</FILE><LINE>216</LINE></encrypt_block0>
+  <encrypt_block1><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\Rectangle128FlashLowF.asm</FILE><LINE>232</LINE></encrypt_block1>
+  <copy_word><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>32</LINE></copy_word>
+  <wait><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>42</LINE></wait>
+  <w_loop><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>44</LINE></w_loop>
+  <wait2><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>57</LINE></wait2>
+  <w_loop2><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>59</LINE></w_loop2>
+  <init><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>140</LINE></init>
+  <text><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>142</LINE></text>
+  <main_loop><FILE>K:\Seagate\AVRwriting\Programs\RECTANGLE_AVR\RectangleFlash\interface.asm</FILE><LINE>85</LINE></main_loop>
+ </LABELS>
+</ASSEMBLER_INFO>
