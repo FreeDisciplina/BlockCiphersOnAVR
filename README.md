@@ -15,9 +15,10 @@ For each cipher, we have implementations targeting to at least the two scenarios
 
 They have verified the test vectors provided in the cipher specifications.
 
-For more details on the techniques used to implement `PRINCE`, `LED` and `RECTANGLE`, please refer to the [1]().
+For more details on the techniques used to implement `PRINCE`, `LED` and `RECTANGLE`, please refer to the \[1\].
 
 ## References
 [1] Bao, Z., Zhang, W., Luo, P., Lin, D.: Bitsliced Implementations of the PRINCE, LED and RECTANGLE Block Ciphers
 on AVR 8-bit Microcontrollers. ICICS 2015.
+
 [2] Dinu, D., Corre, Y. L., Khovratovich, D., Perrin, L., Großschädl, J., Biryukov, A.: Triathlon of Lightweight Block Ciphers for the Internet of Things, (http://eprint.iacr.org/2015/209).
