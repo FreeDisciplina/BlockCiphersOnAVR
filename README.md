@@ -1,11 +1,11 @@
-# Bitsliced Implementations of Lightweight Block Ciphers on AVR 8-bit Microcontrollers
+## Bitsliced Implementations of Lightweight Block Ciphers on AVR 8-bit Microcontrollers
 
 This is a program to implement lightweight block ciphers on AVR 8-bit microcontrollers using bitsliced technique.
 Several algorithms have been implemented:
 
-  - >[PRINCE](http://eprint.iacr.org/2012/529)
-  - >[LED](http://eprint.iacr.org/2012/600)
-  - >[RECTANGLE](http://eprint.iacr.org/2014/084)
+  - [PRINCE](http://eprint.iacr.org/2012/529)
+  - [LED](http://eprint.iacr.org/2012/600)
+  - [RECTANGLE](http://eprint.iacr.org/2014/084)
   - [SIMON and SPECK](http://eprint.iacr.org/2015/585)
   - [PRIDE](http://eprint.iacr.org/2014/453)
   
@@ -15,7 +15,7 @@ For each cipher, we have implementations targeting to at least the two scenarios
 
 They have verified the test vectors provided in the cipher specifications.
 
-For more details on the techniques used to implement [PRINCE], [LEN] and [RECTANGLE], please refer to the [1]().
+For more details on the techniques used to implement `PRINCE`, `LED` and `RECTANGLE`, please refer to the [1]().
 
 ## References
 [1] Bao, Z., Zhang, W., Luo, P., Lin, D.: Bitsliced Implementations of the PRINCE, LED and RECTANGLE Block Ciphers
