@@ -15,16 +15,13 @@ For each cipher, we have implementations targeting to at least the two scenarios
 
 They have verified the test vectors provided in the cipher specifications.
 
-For more details on the techniques used to implement `PRINCE`, `LED` and `RECTANGLE`, please refer to our paper \[1\], for details on the techniques used to implement `SIMON` and `SPECK`, please refer to [\[3\]](http://eprint.iacr.org/2014/947), and for details on implementation of `PRIDE`, please refer to [\[4\]]http://eprint.iacr.org/2014/453).
+For more details on the techniques used to implement `PRINCE`, `LED` and `RECTANGLE`, please refer to our paper \[1\], for details on the techniques used to implement `SIMON` and `SPECK`, please refer to [\[3\]](http://eprint.iacr.org/2014/947), and for details on implementation of `PRIDE`, please refer to [\[4\]](http://eprint.iacr.org/2014/453).
 
 ## References
-[1] Bao, Z., Zhang, W., Luo, P., Lin, D.: Bitsliced Implementations of the PRINCE, LED and RECTANGLE Block Ciphers
-on AVR 8-bit Microcontrollers.
+[1] Bao, Z., Zhang, W., Luo, P., Lin, D.: Bitsliced Implementations of the PRINCE, LED and RECTANGLE Block Ciphers on AVR 8-bit Microcontrollers.
 
 [2] Dinu, D., Corre, Y. L., Khovratovich, D., Perrin, L., Großschädl, J., Biryukov, A.: Triathlon of Lightweight Block Ciphers for the Internet of Things, http://eprint.iacr.org/2015/209.
 
-[3] Beaulieu, R., Shors, D., Smith, J., Treatman-Clark, S., Weeks, B., and Wingers, L.,: The Simon and Speck Block Ciphers
-on AVR 8-bit Microcontrollers. http://eprint.iacr.org/2014/947.
+[3] Beaulieu, R., Shors, D., Smith, J., Treatman-Clark, S., Weeks, B., and Wingers, L.,: The Simon and Speck Block Ciphers on AVR 8-bit Microcontrollers. http://eprint.iacr.org/2014/947.
 
-[4] Albrecht, M.R., Driessen, B., Kavun, E., Leander, G., Paar, C., Yalçin, T.: Block Ciphers - Focus On The Linear Layer
-(feat. PRIDE). In: Garay, J., Gennaro, R. (eds.) CRYPTO 2014. LNCS, vol 8616, pp.57–76. Springer, Heidelberg (2014). http://eprint.iacr.org/2014/453)
+[4] Albrecht, M.R., Driessen, B., Kavun, E., Leander, G., Paar, C., Yalçin, T.: Block Ciphers - Focus On The Linear Layer (feat. PRIDE). In: Garay, J., Gennaro, R. (eds.) CRYPTO 2014. LNCS, vol 8616, pp.57–76. Springer, Heidelberg (2014). http://eprint.iacr.org/2014/453.
