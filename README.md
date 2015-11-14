@@ -3,11 +3,11 @@
 This is a program to implement lightweight block ciphers on AVR 8-bit microcontrollers using bitsliced technique.
 Several algorithms have been implemented:
 
-  - [PRINCE](http://eprint.iacr.org/2012/529) - A Low-latency Block Cipher for Pervasive Computing Applications
-  - [LED](http://eprint.iacr.org/2012/600) - The LED Block Cipher
-  - [RECTANGLE](http://eprint.iacr.org/2014/084) - A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms
-  - [SIMON and SPECK](http://eprint.iacr.org/2015/585) - Block Ciphers for the Internet of Things
-  - [PRIDE](http://eprint.iacr.org/2014/453) - Block Ciphers - Focus On The Linear Layer
+  - [PRINCE](http://eprint.iacr.org/2012/529) - *A Low-latency Block Cipher for Pervasive Computing Applications*
+  - [LED](http://eprint.iacr.org/2012/600) - *The LED Block Cipher*
+  - [RECTANGLE](http://eprint.iacr.org/2014/084) - *A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms*
+  - [SIMON and SPECK](http://eprint.iacr.org/2015/585) - *Block Ciphers for the Internet of Things*
+  - [PRIDE](http://eprint.iacr.org/2014/453) - *Block Ciphers - Focus On The Linear Layer*
   
 All of the implementation are written in assembly code and can be compiled using [Atmel Studio 6.2](http://www.atmel.com/tools/ATMELSTUDIO.aspx). The specific target device is the [AVR ATmega128 8-bit microcontroller](http://www.atmel.com/products/microcontrollers/avr/default.aspx).
 
