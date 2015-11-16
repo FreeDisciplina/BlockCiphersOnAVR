@@ -90,7 +90,6 @@ KEY_LOOP:
 	nop
 
 #ifdef KEYSCHEDULE
-	rcall setConstC
 	rcall keyschedule 
 #endif
 	nop

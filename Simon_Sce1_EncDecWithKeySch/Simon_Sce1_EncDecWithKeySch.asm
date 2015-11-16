@@ -13,9 +13,9 @@
 .EQU	ENC_DEC_ROUNDS = 44
 .EQU	BLOCK_SIZE = 16
 
-#define KEYSCHEDULE
+/*#define KEYSCHEDULE
 #define ENCRYPT
-#define DECRYPT
+#define DECRYPT*/
 
 .def temp = r17;
 .def remain8 = r18;      currentRound % 8
@@ -28,14 +28,6 @@
 
 .def currentRound = r24;
 .def currentBlock = r25; in CBC model, the blocks of plain text is 16(128 bytes).
-
-setConstC:
-	; the const value of c
-	ldi constC0, 0xfc;
-	ldi constC1, 0xff;
-	ldi constC2, 0xff;
-	ldi constC3, 0xff;
-	ret;
 
 	/*
 	 * Subroutine: keyschedule
@@ -60,6 +52,12 @@ loadMasterKey:
 	cpi currentRound, MASTER_KEY_NUM_BYTE
 	brne loadMasterKey;*/
 	
+	; the const value of c
+	ldi constC0, 0xfc;
+	ldi constC1, 0xff;
+	ldi constC2, 0xff;
+	ldi constC3, 0xff;
+
 	; prepare for the key schedule
 	ldi r26, low(SRAM_MASTER_KEY);
 	ldi r27, high(SRAM_MASTER_KEY);
